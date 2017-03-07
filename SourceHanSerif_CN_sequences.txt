@@ -1,0 +1,11 @@
+# CN
+5140 FE00; Standardized_Variants; CID+10849
+51C9 FE00; Standardized_Variants; CID+11060
+55C0 FE00; Standardized_Variants; CID+12670
+793C FE00; Standardized_Variants; CID+59789
+79CA FE00; Standardized_Variants; CID+29819
+8612 FE00; Standardized_Variants; CID+59799
+88CF FE00; Standardized_Variants; CID+37762
+90CE FE00; Standardized_Variants; CID+41717
+96A3 FE00; Standardized_Variants; CID+44108
+# EOF

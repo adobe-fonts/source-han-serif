@@ -1,0 +1,207 @@
+[SourceHanSerifJP-ExtraLight]
+	f=3,1,0x411,\6E90\30CE\660E\671D JP
+	s=3,1,0x411,ExtraLight
+	l=3,1,0x411,\6E90\30CE\660E\671D JP ExtraLight
+	f=Source Han Serif JP
+	s=ExtraLight
+	l=Source Han Serif JP ExtraLight
+
+[SourceHanSerifJP-Light]
+	f=3,1,0x411,\6E90\30CE\660E\671D JP
+	s=3,1,0x411,Light
+	l=3,1,0x411,\6E90\30CE\660E\671D JP Light
+	f=Source Han Serif JP
+	s=Light
+	l=Source Han Serif JP Light
+
+[SourceHanSerifJP-Regular]
+	f=3,1,0x411,\6E90\30CE\660E\671D JP
+	s=3,1,0x411,Regular
+	f=Source Han Serif JP
+	s=Regular
+
+[SourceHanSerifJP-Medium]
+	f=3,1,0x411,\6E90\30CE\660E\671D JP
+	s=3,1,0x411,Medium
+	l=3,1,0x411,\6E90\30CE\660E\671D JP Medium
+	f=Source Han Serif JP
+	s=Medium
+	l=Source Han Serif JP Medium
+
+[SourceHanSerifJP-SemiBold]
+	f=3,1,0x411,\6E90\30CE\660E\671D JP
+	s=3,1,0x411,SemiBold
+	l=3,1,0x411,\6E90\30CE\660E\671D JP SemiBold
+	f=Source Han Serif JP
+	s=SemiBold
+	l=Source Han Serif JP SemiBold
+
+[SourceHanSerifJP-Bold]
+	f=3,1,0x411,\6E90\30CE\660E\671D JP
+	s=3,1,0x411,Bold
+	f=Source Han Serif JP
+	s=Bold
+
+[SourceHanSerifJP-Heavy]
+	f=3,1,0x411,\6E90\30CE\660E\671D JP
+	s=3,1,0x411,Heavy
+	l=3,1,0x411,\6E90\30CE\660E\671D JP Heavy
+	f=Source Han Serif JP
+	s=Heavy
+	l=Source Han Serif JP Heavy
+
+[SourceHanSerifKR-ExtraLight]
+	f=3,1,0x412,\BCF8\BA85\C870 KR
+	s=3,1,0x412,ExtraLight
+	l=3,1,0x412,\BCF8\BA85\C870 KR ExtraLight
+	f=Source Han Serif KR
+	s=ExtraLight
+	l=Source Han Serif KR ExtraLight
+
+[SourceHanSerifKR-Light]
+	f=3,1,0x412,\BCF8\BA85\C870 KR
+	s=3,1,0x412,Light
+	l=3,1,0x412,\BCF8\BA85\C870 KR Light
+	f=Source Han Serif KR
+	s=Light
+	l=Source Han Serif KR Light
+
+[SourceHanSerifKR-Regular]
+	f=3,1,0x412,\BCF8\BA85\C870 KR
+	s=3,1,0x412,Regular
+	f=Source Han Serif KR
+	s=Regular
+
+[SourceHanSerifKR-Medium]
+	f=3,1,0x412,\BCF8\BA85\C870 KR
+	s=3,1,0x412,Medium
+	l=3,1,0x412,\BCF8\BA85\C870 KR Medium
+	f=Source Han Serif KR
+	s=Medium
+	l=Source Han Serif KR Medium
+
+[SourceHanSerifKR-SemiBold]
+	f=3,1,0x412,\BCF8\BA85\C870 KR
+	s=3,1,0x412,SemiBold
+	l=3,1,0x412,\BCF8\BA85\C870 KR SemiBold
+	f=Source Han Serif KR
+	s=SemiBold
+	l=Source Han Serif KR SemiBold
+
+[SourceHanSerifKR-Bold]
+	f=3,1,0x412,\BCF8\BA85\C870 KR
+	s=3,1,0x412,Bold
+	f=Source Han Serif KR
+	s=Bold
+
+[SourceHanSerifKR-Heavy]
+	f=3,1,0x412,\BCF8\BA85\C870 KR
+	s=3,1,0x412,Heavy
+	l=3,1,0x412,\BCF8\BA85\C870 KR Heavy
+	f=Source Han Serif KR
+	s=Heavy
+	l=Source Han Serif KR Heavy
+
+[SourceHanSerifCN-ExtraLight]
+	f=3,1,0x804,\601D\6E90\5B8B\4F53 CN
+	s=3,1,0x804,ExtraLight
+	l=3,1,0x804,\601D\6E90\5B8B\4F53 CN ExtraLight
+	f=Source Han Serif CN
+	s=ExtraLight
+	l=Source Han Serif CN ExtraLight
+
+[SourceHanSerifCN-Light]
+	f=3,1,0x804,\601D\6E90\5B8B\4F53 CN
+	s=3,1,0x804,Light
+	l=3,1,0x804,\601D\6E90\5B8B\4F53 CN Light
+	f=Source Han Serif CN
+	s=Light
+	l=Source Han Serif CN Light
+
+[SourceHanSerifCN-Regular]
+	f=3,1,0x804,\601D\6E90\5B8B\4F53 CN
+	s=3,1,0x804,Regular
+	f=Source Han Serif CN
+	s=Regular
+
+[SourceHanSerifCN-Medium]
+	f=3,1,0x804,\601D\6E90\5B8B\4F53 CN
+	s=3,1,0x804,Medium
+	l=3,1,0x804,\601D\6E90\5B8B\4F53 CN Medium
+	f=Source Han Serif CN
+	s=Medium
+	l=Source Han Serif CN Medium
+
+[SourceHanSerifCN-SemiBold]
+	f=3,1,0x804,\601D\6E90\5B8B\4F53 CN
+	s=3,1,0x804,SemiBold
+	l=3,1,0x804,\601D\6E90\5B8B\4F53 CN SemiBold
+	f=Source Han Serif CN
+	s=SemiBold
+	l=Source Han Serif CN SemiBold
+
+[SourceHanSerifCN-Bold]
+	f=3,1,0x804,\601D\6E90\5B8B\4F53 CN
+	s=3,1,0x804,Bold
+	f=Source Han Serif CN
+	s=Bold
+
+[SourceHanSerifCN-Heavy]
+	f=3,1,0x804,\601D\6E90\5B8B\4F53 CN
+	s=3,1,0x804,Heavy
+	l=3,1,0x804,\601D\6E90\5B8B\4F53 CN Heavy
+	f=Source Han Serif CN
+	s=Heavy
+	l=Source Han Serif CN Heavy
+
+[SourceHanSerifTW-ExtraLight]
+	f=3,1,0x404,\601D\6E90\5B8B\9AD4 TW
+	s=3,1,0x404,ExtraLight
+	l=3,1,0x404,\601D\6E90\5B8B\9AD4 TW ExtraLight
+	f=Source Han Serif TW
+	s=ExtraLight
+	l=Source Han Serif TW ExtraLight
+
+[SourceHanSerifTW-Light]
+	f=3,1,0x404,\601D\6E90\5B8B\9AD4 TW
+	s=3,1,0x404,Light
+	l=3,1,0x404,\601D\6E90\5B8B\9AD4 TW Light
+	f=Source Han Serif TW
+	s=Light
+	l=Source Han Serif TW Light
+
+[SourceHanSerifTW-Regular]
+	f=3,1,0x404,\601D\6E90\5B8B\9AD4 TW
+	s=3,1,0x404,Regular
+	f=Source Han Serif TW
+	s=Regular
+
+[SourceHanSerifTW-Medium]
+	f=3,1,0x404,\601D\6E90\5B8B\9AD4 TW
+	s=3,1,0x404,Medium
+	l=3,1,0x404,\601D\6E90\5B8B\9AD4 TW Medium
+	f=Source Han Serif TW
+	s=Medium
+	l=Source Han Serif TW Medium
+
+[SourceHanSerifTW-SemiBold]
+	f=3,1,0x404,\601D\6E90\5B8B\9AD4 TW
+	s=3,1,0x404,SemiBold
+	l=3,1,0x404,\601D\6E90\5B8B\9AD4 TW SemiBold
+	f=Source Han Serif TW
+	s=SemiBold
+	l=Source Han Serif TW SemiBold
+
+[SourceHanSerifTW-Bold]
+	f=3,1,0x404,\601D\6E90\5B8B\9AD4 TW
+	s=3,1,0x404,Bold
+	f=Source Han Serif TW
+	s=Bold
+
+[SourceHanSerifTW-Heavy]
+	f=3,1,0x404,\601D\6E90\5B8B\9AD4 TW
+	s=3,1,0x404,Heavy
+	l=3,1,0x404,\601D\6E90\5B8B\9AD4 TW Heavy
+	f=Source Han Serif TW
+	s=Heavy
+	l=Source Han Serif TW Heavy

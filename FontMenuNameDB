@@ -1,0 +1,207 @@
+[SourceHanSerif-ExtraLight]
+	f=3,1,0x411,\6E90\30CE\660E\671D
+	s=3,1,0x411,ExtraLight
+	l=3,1,0x411,\6E90\30CE\660E\671D ExtraLight
+	f=Source Han Serif
+	s=ExtraLight
+	l=Source Han Serif ExtraLight
+
+[SourceHanSerif-Light]
+	f=3,1,0x411,\6E90\30CE\660E\671D
+	s=3,1,0x411,Light
+	l=3,1,0x411,\6E90\30CE\660E\671D Light
+	f=Source Han Serif
+	s=Light
+	l=Source Han Serif Light
+
+[SourceHanSerif-Regular]
+	f=3,1,0x411,\6E90\30CE\660E\671D
+	s=3,1,0x411,Regular
+	f=Source Han Serif
+	s=Regular
+
+[SourceHanSerif-Medium]
+	f=3,1,0x411,\6E90\30CE\660E\671D
+	s=3,1,0x411,Medium
+	l=3,1,0x411,\6E90\30CE\660E\671D Medium
+	f=Source Han Serif
+	s=Medium
+	l=Source Han Serif Medium
+
+[SourceHanSerif-SemiBold]
+	f=3,1,0x411,\6E90\30CE\660E\671D
+	s=3,1,0x411,SemiBold
+	l=3,1,0x411,\6E90\30CE\660E\671D SemiBold
+	f=Source Han Serif
+	s=SemiBold
+	l=Source Han Serif SemiBold
+
+[SourceHanSerif-Bold]
+	f=3,1,0x411,\6E90\30CE\660E\671D
+	s=3,1,0x411,Bold
+	f=Source Han Serif
+	s=Bold
+
+[SourceHanSerif-Heavy]
+	f=3,1,0x411,\6E90\30CE\660E\671D
+	s=3,1,0x411,Heavy
+	l=3,1,0x411,\6E90\30CE\660E\671D Heavy
+	f=Source Han Serif
+	s=Heavy
+	l=Source Han Serif Heavy
+
+[SourceHanSerifK-ExtraLight]
+	f=3,1,0x412,\BCF8\BA85\C870
+	s=3,1,0x412,ExtraLight
+	l=3,1,0x412,\BCF8\BA85\C870 ExtraLight
+	f=Source Han Serif K
+	s=ExtraLight
+	l=Source Han Serif K ExtraLight
+
+[SourceHanSerifK-Light]
+	f=3,1,0x412,\BCF8\BA85\C870
+	s=3,1,0x412,Light
+	l=3,1,0x412,\BCF8\BA85\C870 Light
+	f=Source Han Serif K
+	s=Light
+	l=Source Han Serif K Light
+
+[SourceHanSerifK-Regular]
+	f=3,1,0x412,\BCF8\BA85\C870
+	s=3,1,0x412,Regular
+	f=Source Han Serif K
+	s=Regular
+
+[SourceHanSerifK-Medium]
+	f=3,1,0x412,\BCF8\BA85\C870
+	s=3,1,0x412,Medium
+	l=3,1,0x412,\BCF8\BA85\C870 Medium
+	f=Source Han Serif K
+	s=Medium
+	l=Source Han Serif K Medium
+
+[SourceHanSerifK-SemiBold]
+	f=3,1,0x412,\BCF8\BA85\C870
+	s=3,1,0x412,SemiBold
+	l=3,1,0x412,\BCF8\BA85\C870 SemiBold
+	f=Source Han Serif K
+	s=SemiBold
+	l=Source Han Serif K SemiBold
+
+[SourceHanSerifK-Bold]
+	f=3,1,0x412,\BCF8\BA85\C870
+	s=3,1,0x412,Bold
+	f=Source Han Serif K
+	s=Bold
+
+[SourceHanSerifK-Heavy]
+	f=3,1,0x412,\BCF8\BA85\C870
+	s=3,1,0x412,Heavy
+	l=3,1,0x412,\BCF8\BA85\C870 Heavy
+	f=Source Han Serif K
+	s=Heavy
+	l=Source Han Serif K Heavy
+
+[SourceHanSerifSC-ExtraLight]
+	f=3,1,0x804,\601D\6E90\5B8B\4F53
+	s=3,1,0x804,ExtraLight
+	l=3,1,0x804,\601D\6E90\5B8B\4F53 ExtraLight
+	f=Source Han Serif SC
+	s=ExtraLight
+	l=Source Han Serif SC ExtraLight
+
+[SourceHanSerifSC-Light]
+	f=3,1,0x804,\601D\6E90\5B8B\4F53
+	s=3,1,0x804,Light
+	l=3,1,0x804,\601D\6E90\5B8B\4F53 Light
+	f=Source Han Serif SC
+	s=Light
+	l=Source Han Serif SC Light
+
+[SourceHanSerifSC-Regular]
+	f=3,1,0x804,\601D\6E90\5B8B\4F53
+	s=3,1,0x804,Regular
+	f=Source Han Serif SC
+	s=Regular
+
+[SourceHanSerifSC-Medium]
+	f=3,1,0x804,\601D\6E90\5B8B\4F53
+	s=3,1,0x804,Medium
+	l=3,1,0x804,\601D\6E90\5B8B\4F53 Medium
+	f=Source Han Serif SC
+	s=Medium
+	l=Source Han Serif SC Medium
+
+[SourceHanSerifSC-SemiBold]
+	f=3,1,0x804,\601D\6E90\5B8B\4F53
+	s=3,1,0x804,SemiBold
+	l=3,1,0x804,\601D\6E90\5B8B\4F53 SemiBold
+	f=Source Han Serif SC
+	s=SemiBold
+	l=Source Han Serif SC SemiBold
+
+[SourceHanSerifSC-Bold]
+	f=3,1,0x804,\601D\6E90\5B8B\4F53
+	s=3,1,0x804,Bold
+	f=Source Han Serif SC
+	s=Bold
+
+[SourceHanSerifSC-Heavy]
+	f=3,1,0x804,\601D\6E90\5B8B\4F53
+	s=3,1,0x804,Heavy
+	l=3,1,0x804,\601D\6E90\5B8B\4F53 Heavy
+	f=Source Han Serif SC
+	s=Heavy
+	l=Source Han Serif SC Heavy
+
+[SourceHanSerifTC-ExtraLight]
+	f=3,1,0x404,\601D\6E90\5B8B\9AD4
+	s=3,1,0x404,ExtraLight
+	l=3,1,0x404,\601D\6E90\5B8B\9AD4 ExtraLight
+	f=Source Han Serif TC
+	s=ExtraLight
+	l=Source Han Serif TC ExtraLight
+
+[SourceHanSerifTC-Light]
+	f=3,1,0x404,\601D\6E90\5B8B\9AD4
+	s=3,1,0x404,Light
+	l=3,1,0x404,\601D\6E90\5B8B\9AD4 Light
+	f=Source Han Serif TC
+	s=Light
+	l=Source Han Serif TC Light
+
+[SourceHanSerifTC-Regular]
+	f=3,1,0x404,\601D\6E90\5B8B\9AD4
+	s=3,1,0x404,Regular
+	f=Source Han Serif TC
+	s=Regular
+
+[SourceHanSerifTC-Medium]
+	f=3,1,0x404,\601D\6E90\5B8B\9AD4
+	s=3,1,0x404,Medium
+	l=3,1,0x404,\601D\6E90\5B8B\9AD4 Medium
+	f=Source Han Serif TC
+	s=Medium
+	l=Source Han Serif TC Medium
+
+[SourceHanSerifTC-SemiBold]
+	f=3,1,0x404,\601D\6E90\5B8B\9AD4
+	s=3,1,0x404,SemiBold
+	l=3,1,0x404,\601D\6E90\5B8B\9AD4 SemiBold
+	f=Source Han Serif TC
+	s=SemiBold
+	l=Source Han Serif TC SemiBold
+
+[SourceHanSerifTC-Bold]
+	f=3,1,0x404,\601D\6E90\5B8B\9AD4
+	s=3,1,0x404,Bold
+	f=Source Han Serif TC
+	s=Bold
+
+[SourceHanSerifTC-Heavy]
+	f=3,1,0x404,\601D\6E90\5B8B\9AD4
+	s=3,1,0x404,Heavy
+	l=3,1,0x404,\601D\6E90\5B8B\9AD4 Heavy
+	f=Source Han Serif TC
+	s=Heavy
+	l=Source Han Serif TC Heavy
