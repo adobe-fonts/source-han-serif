@@ -4,7 +4,7 @@
 
 思源宋体是一套 OpenType/CFF 泛中日韩字体。这个开源项目不仅提供了可用的 OpenType 字体，还提供了利用 AFDKO *makeotf* 和 *otf2otc* 工具创建这些 OpenType 字体时的所有源文件。
 
-## 下载字体（OTF，OTC，Super OTC 和 Subset OTF）
+## 下载字体（OTF、OTC、Super OTC 和 Subset OTF）
 
 本项目提供了为多种部署方式而设定的独立字体资源以及 ZIP 文件供下载：
 
