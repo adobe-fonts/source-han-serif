@@ -1,3 +1,5 @@
+[English](README.md) [日本語](README-JP.md)
+
 # Source Han Serif
 
 Source Han Serif is a set of OpenType/CFF Pan-CJK fonts. In addition to functional OpenType fonts, this open source project provides all of the source files that were used to build these OpenType fonts by using the AFDKO *makeotf* and *otf2otc* tools.
