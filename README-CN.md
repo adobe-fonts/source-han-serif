@@ -1,4 +1,4 @@
-[English](https://github.com/adobe-fonts/source-han-serif/) [简体中文](README-CN.md) [日本語](README-JP.md)
+[English](https://github.com/adobe-fonts/source-han-serif/) [简体中文](README-CN.md) [繁體中文](README-TW.md) [日本語](README-JP.md) [한국어](README-KR.md)
 
 # 思源宋体
 
@@ -36,4 +36,4 @@
 
 ## 更多信息
 
-更多关于「思源宋体」的设计和背景信息，请参照[《设计指南》](https://github.com/adobe-fonts/source-han-serif/raw/release/SourceHanSerifDesignGuide.pdf)和 [《官方字体 readme 文件》](https://github.com/adobe-fonts/source-han-serif/raw/release/SourceHanSerifReadMe.pdf)。
+更多关于「思源宋体」的设计和背景信息，请参照[《设计指南》](https://github.com/adobe-fonts/source-han-serif/raw/release/SourceHanSerifDesignGuide.pdf)和[《官方字体 readme 文件》](https://github.com/adobe-fonts/source-han-serif/raw/release/SourceHanSerifReadMe.pdf)。
