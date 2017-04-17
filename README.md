@@ -1,44 +1,46 @@
-# Source Han Serif
+# Downloading Source Han Serif
 
-Source Han Serif is a set of OpenType/CFF Pan-CJK fonts. In addition to functional OpenType fonts, this open source project provides all of the source files that were used to build these OpenType fonts by using the AFDKO *makeotf* and *otf2otc* tools.
+Source Han Serif is an open source Pan-CJK typeface whose OpenType/CFF fonts are covered under the terms of the [SIL Open Font License, Version 1.1](http://scripts.sil.org/OFL) (also see the [LICENSE](LICENSE.txt) and [FAQ](http://scripts.sil.org/cms/scripts/page.php?item_id=OFL-FAQ_web)). In addition to providing ready-to-install OpenType/CFF font resources in this branch as individual font resources or grouped together in downloadable ZIP files, this open source project provides in its [master branch](https://github.com/adobe-fonts/source-han-serif/) all of the CID-based source files that were used to build these OpenType/CFF fonts by using the [AFDKO](https://www.adobe.com/devnet/opentype/afdko.html) *makeotf* and *otf2otc* tools.
 
 Those who are unfamiliar with GitHub are encouraged to reference the [official Source Han download guide](https://github.com/adobe-fonts/source-han-serif/raw/release/download-guide-source-han.pdf), which is provided in English, Japanese, Korean, Simplified Chinese, and Traditional Chinese.
 
-## ZIP File Downloading
+### Super OTC
 
-ZIP files are included that are intended to ease the downloading of all weights for a particular language or format. Below are convenient download links (the ZIP file will download if clicked) for the ZIP files in this project:
+Select this deployment format if you want all languages and all weights in a single and easy-to-manage font resource. Changing languages is accomplished by either selecting a font of the appropriate language or by language-tagging the text. A limited number of apps support language tagging and the corresponding OpenType 'locl' (*Localized Forms*) GSUB feature, such as [Adobe InDesign CC](https://www.adobe.com/products/indesign.html) and modern browsers.
 
-### Language-specific OTFs
-
-[Simplified Chinese, ExtraLight + Light + Regular + Medium](https://github.com/adobe-fonts/source-han-serif/raw/release/OTF/SourceHanSerifSC_EL-M.zip) & [Simplified Chinese, SemiBold + Bold + Heavy](https://github.com/adobe-fonts/source-han-serif/raw/release/OTF/SourceHanSerifSC_SB-H.zip)
-
-[Traditional Chinese, ExtraLight + Light + Regular + Medium](https://github.com/adobe-fonts/source-han-serif/raw/release/OTF/SourceHanSerifTC_EL-M.zip) & [Traditional Chinese, SemiBold + Bold + Heavy](https://github.com/adobe-fonts/source-han-serif/raw/release/OTF/SourceHanSerifTC_SB-H.zip)
-
-[Japanese, ExtraLight + Light + Regular + Medium](https://github.com/adobe-fonts/source-han-serif/raw/release/OTF/SourceHanSerifJ_EL-M.zip) & [Japanese, SemiBold + Bold + Heavy](https://github.com/adobe-fonts/source-han-serif/raw/release/OTF/SourceHanSerifJ_SB-H.zip)
-
-[Korean, ExtraLight + Light + Regular + Medium](https://github.com/adobe-fonts/source-han-serif/raw/release/OTF/SourceHanSerifK_EL-M.zip) & [Korean, SemiBold + Bold + Heavy](https://github.com/adobe-fonts/source-han-serif/raw/release/OTF/SourceHanSerifK_SB-H.zip)
-
-### Region-specific Subset OTFs
-
-[China](https://github.com/adobe-fonts/source-han-serif/raw/release/SubsetOTF/SourceHanSerifCN.zip)
-
-[Taiwan](https://github.com/adobe-fonts/source-han-serif/raw/release/SubsetOTF/SourceHanSerifTW.zip)
-
-[Japan](https://github.com/adobe-fonts/source-han-serif/raw/release/SubsetOTF/SourceHanSerifJP.zip)
-
-[Korea](https://github.com/adobe-fonts/source-han-serif/raw/release/SubsetOTF/SourceHanSerifKR.zip)
-
-### OTCs
-
-[ExtraLight + Light + Regular + Medium](https://github.com/adobe-fonts/source-han-serif/raw/release/OTC/SourceHanSerifOTC_EL-M.zip)
-
-[SemiBold + Bold + Heavy](https://github.com/adobe-fonts/source-han-serif/raw/release/OTC/SourceHanSerifOTC_SB-H.zip)
+**Special Note**: This deployment format requires macOS (OS X) Version 10.8 (aka *Mountain Lion*) or later, iOS 7 or later, or Windows 10 Version 1703 (aka *Creators Update*) or later. If you are using Adobe apps, CS6 or later versions must be used.
 
 [Super OTC Part 1](https://github.com/adobe-fonts/source-han-serif/raw/release/SuperOTC/SourceHanSerif.ttc.z01) + [Super OTC Part 2](https://github.com/adobe-fonts/source-han-serif/raw/release/SuperOTC/SourceHanSerif.ttc.zip)
 
-Note that the ZIP file for the Super OTC has been necessarily split into two parts, due to GitHub's 100MB file size limit. Unfortunately, the built-in *Archive Utility* app of macOS does not support split ZIP files, and we therefore recommend that you download and installed the [Unarchiver](http://unarchiver.c3.cx/unarchiver) app. To unzip, either drag the Part 2 file (the one named *SourceHanSerif.ttc.zip*) onto the *Unarchiver* app, or use Control-Click to open it by specifying that app (after installing the *Unarchiver* app, you may also be able to simply double-click the Part 2 file). Either of these actions will combine the two parts and unzip them. For Windows, select the Part 2 file, then use the "Extract All" context menu to combine the two parts and unzip them.
+The ZIP file for the Super OTC has been necessarily split into two parts, due to GitHub's 100MB file size limit. Unfortunately, the built-in *Archive Utility* app of macOS does not support split ZIP files, and we therefore recommend that you download and install the [Unarchiver](http://unarchiver.c3.cx/unarchiver) app. To unzip, either drag the Part 2 file (the one with the ".zip" filename extension, and named *SourceHanSerif.ttc.zip*) onto the *Unarchiver* app, or use Control-Click to open it by specifying that app (after installing the *Unarchiver* app, you may also be able to simply double-click the Part 2 file). Either of these actions will combine the two parts and unzip them. For Windows, select the Part 2 file, then use the "Extract All" context menu to combine the two parts and unzip them.
 
-Please be aware that versions of Windows up to and including Windows 10 Anniversary Update do not support the Super OTC. Please read the *Configurations* section of the [official font readme file](https://github.com/adobe-fonts/source-han-serif/raw/release/SourceHanSerifReadMe.pdf) for more details.
+### OTCs
+
+Select this deployment format if you want all languages and some weights, or if your environment does not support the Super OTC. Changing languages is performed the same way as the Super OTC. If you need specific weights, download individual font resources from the [OTC](OTC) folder, otherwise click one or both of the links below.
+
+**Special Note**: This deployment format requires macOS (OS X) Version 10.8 (aka *Mountain Lion*) or later, iOS 7 or later, or Windows 10 Version 1607 (aka *Anniversary Update*) or later. If you are using Adobe apps, CS6 or later versions must be used.
+
+[ExtraLight + Light + Regular + Medium](https://github.com/adobe-fonts/source-han-serif/raw/release/OTC/SourceHanSerifOTC_EL-M.zip) & [SemiBold + Bold + Heavy](https://github.com/adobe-fonts/source-han-serif/raw/release/OTC/SourceHanSerifOTC_SB-H.zip)
+
+### Language-specific OTFs
+
+Select this deployment format if you prefer to use only one language, but also want full character coverage or the ability to language-tag text to use glyphs that are appropriate for other languages (like the Super OTC and OTCs, this requires an app that supports language tagging and the OpenType 'locl' GSUB feature). If you only need specific weights, download individual font resources from the [OTF](OTF) folder, otherwise click on the appropriate links below:
+
+Simplified Chinese (简体中文): [ExtraLight + Light + Regular + Medium](https://github.com/adobe-fonts/source-han-serif/raw/release/OTF/SourceHanSerifSC_EL-M.zip) & [SemiBold + Bold + Heavy](https://github.com/adobe-fonts/source-han-serif/raw/release/OTF/SourceHanSerifSC_SB-H.zip)
+
+Traditional Chinese (繁體中文): [ExtraLight + Light + Regular + Medium](https://github.com/adobe-fonts/source-han-serif/raw/release/OTF/SourceHanSerifTC_EL-M.zip) & [SemiBold + Bold + Heavy](https://github.com/adobe-fonts/source-han-serif/raw/release/OTF/SourceHanSerifTC_SB-H.zip)
+
+Japanese (日本語): [ExtraLight + Light + Regular + Medium](https://github.com/adobe-fonts/source-han-serif/raw/release/OTF/SourceHanSerifJ_EL-M.zip) & [SemiBold + Bold + Heavy](https://github.com/adobe-fonts/source-han-serif/raw/release/OTF/SourceHanSerifJ_SB-H.zip)
+
+Korean (한국어): [ExtraLight + Light + Regular + Medium](https://github.com/adobe-fonts/source-han-serif/raw/release/OTF/SourceHanSerifK_EL-M.zip) & [SemiBold + Bold + Heavy](https://github.com/adobe-fonts/source-han-serif/raw/release/OTF/SourceHanSerifK_SB-H.zip)
+
+### Region-specific Subset OTFs
+
+Select this deployment format if you need only the glyphs for characters for a particular region, **or if you are not sure which deployment format to choose**.
+
+Each ZIP file contains seven font resources, one for each of the seven weights. If you need specific weights, download individual font resources from the [SubsetOTF](SubsetOTF) folder, otherwise click on the appropriate links below.
+
+[China (中国)](https://github.com/adobe-fonts/source-han-serif/raw/release/SubsetOTF/SourceHanSerifCN.zip), [Taiwan (臺灣)](https://github.com/adobe-fonts/source-han-serif/raw/release/SubsetOTF/SourceHanSerifTW.zip), [Japan (日本)](https://github.com/adobe-fonts/source-han-serif/raw/release/SubsetOTF/SourceHanSerifJP.zip), [Korea (한국)](https://github.com/adobe-fonts/source-han-serif/raw/release/SubsetOTF/SourceHanSerifKR.zip)
 
 ## Font installation instructions
 
