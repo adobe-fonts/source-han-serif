@@ -28,7 +28,7 @@
 
 ### 建置所有字型
 
-這個存放庫裡存放了建置 OpenType/CFF 與 OpenType/CFF 集合字型的所有必要檔案。[COMMANDS.txt](COMMANDS.txt) 檔案提供了用於建置 OTF 與 OTC 檔案的命令行。
+這個存放庫裡存放了建置 OpenType/CFF 與 OpenType/CFF 集合字型的所有必要檔案。[COMMANDS.txt](COMMANDS.txt) 檔案提供了用於建置 OTF 與 OTC 檔案的命令列。
 
 ## 如何參與
 
