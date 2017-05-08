@@ -8,7 +8,7 @@ languagesystem grek dflt;
 languagesystem cyrl dflt;
 
 table head {
-  FontRevision 1.000;
+  FontRevision 1.001;
 } head;
 
 table hhea {
@@ -788,6 +788,39 @@ feature fwid {
   substitute \742 by \60159;
   substitute \1348 by \62284;
   substitute \1349 by \62285;
+  substitute \62249 by \1396;
+  substitute \62250 by \59944;
+  substitute \62251 by \59945;
+  substitute \62252 by \59950;
+  substitute \62253 by \59951;
+  substitute \62254 by \59952;
+  substitute \62255 by \59955;
+  substitute \62256 by \59956;
+  substitute \62257 by \59957;
+  substitute \62258 by \59958;
+  substitute \62259 by \59969;
+  substitute \62260 by \59970;
+  substitute \62261 by \59974;
+  substitute \62262 by \60002;
+  substitute \62263 by \60004;
+  substitute \62264 by \60034;
+  substitute \62265 by \60036;
+  substitute \62266 by \1424;
+  substitute \62269 by \716;
+  substitute \62270 by \62419;
+  substitute \62271 by \62420;
+  substitute \62273 by \62421;
+  substitute \62274 by \62422;
+  substitute \62294 by \59959;
+  substitute \62295 by \59960;
+  substitute \62296 by \59961;
+  substitute \62297 by \59962;
+  substitute \62298 by \59963;
+  substitute \62299 by \59964;
+  substitute \62300 by \59965;
+  substitute \62301 by \59966;
+  substitute \62302 by \59967;
+  substitute \62303 by \59968;
   substitute \62304 by \728;
   substitute \62305 by \1396;
   substitute \62306 by \59944;
@@ -886,6 +919,23 @@ feature fwid {
   substitute \62399 by \1424;
   substitute \62400 by \60158;
   substitute \62401 by \60159;
+  substitute \62402 by \59944;
+  substitute \62403 by \59945;
+  substitute \62404 by \59950;
+  substitute \62405 by \59951;
+  substitute \62406 by \59952;
+  substitute \62407 by \59955;
+  substitute \62408 by \59956;
+  substitute \62409 by \59957;
+  substitute \62410 by \59958;
+  substitute \62411 by \59969;
+  substitute \62412 by \59970;
+  substitute \62413 by \59974;
+  substitute \62414 by \60002;
+  substitute \62415 by \60004;
+  substitute \62416 by \60034;
+  substitute \62417 by \60036;
+  substitute \62418 by \1424;
 } fwid;
 
 feature hwid {
@@ -1083,6 +1133,34 @@ feature hwid {
   substitute \60036 by \62398;
   substitute \60158 by \62400;
   substitute \60159 by \62401;
+  substitute \62249 by \62305;
+  substitute \62250 by \62402;
+  substitute \62251 by \62403;
+  substitute \62252 by \62404;
+  substitute \62253 by \62405;
+  substitute \62254 by \62406;
+  substitute \62255 by \62407;
+  substitute \62256 by \62408;
+  substitute \62257 by \62409;
+  substitute \62258 by \62410;
+  substitute \62259 by \62411;
+  substitute \62260 by \62412;
+  substitute \62261 by \62413;
+  substitute \62262 by \62414;
+  substitute \62263 by \62415;
+  substitute \62264 by \62416;
+  substitute \62265 by \62417;
+  substitute \62266 by \62418;
+  substitute \62294 by \62321;
+  substitute \62295 by \62322;
+  substitute \62296 by \62323;
+  substitute \62297 by \62324;
+  substitute \62298 by \62325;
+  substitute \62299 by \62326;
+  substitute \62300 by \62327;
+  substitute \62301 by \62328;
+  substitute \62302 by \62329;
+  substitute \62303 by \62330;
 } hwid;
 
 feature pwid {
@@ -1284,10 +1362,27 @@ feature pwid {
   substitute \62399 by \95;
   substitute \62400 by \100;
   substitute \62401 by \742;
-  substitute \62419 by \718;
-  substitute \62420 by \719;
-  substitute \62421 by \721;
-  substitute \62422 by \722;
+  substitute \62402 by \62250;
+  substitute \62403 by \62251;
+  substitute \62404 by \62252;
+  substitute \62405 by \62253;
+  substitute \62406 by \62254;
+  substitute \62407 by \62255;
+  substitute \62408 by \62256;
+  substitute \62409 by \62257;
+  substitute \62410 by \62258;
+  substitute \62411 by \62259;
+  substitute \62412 by \62260;
+  substitute \62413 by \62261;
+  substitute \62414 by \62262;
+  substitute \62415 by \62263;
+  substitute \62416 by \62264;
+  substitute \62417 by \62265;
+  substitute \62418 by \62266;
+  substitute \62419 by \62270;
+  substitute \62420 by \62271;
+  substitute \62421 by \62273;
+  substitute \62422 by \62274;
 } pwid;
 
 feature jp78 {

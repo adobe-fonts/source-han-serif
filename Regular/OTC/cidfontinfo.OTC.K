@@ -2,7 +2,7 @@ FontName                   (SourceHanSerifK-Regular)
 FullName                   (Source Han Serif Korean Regular)
 FamilyName                 (Source Han Serif Korean)
 Weight                     (Regular)
-version                    (1.000)
+version                    (1.001)
 Registry                   (Adobe)
 Ordering                   (Identity)
 Supplement                 0

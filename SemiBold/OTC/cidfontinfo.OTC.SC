@@ -2,7 +2,7 @@ FontName                   (SourceHanSerifSC-SemiBold)
 FullName                   (Source Han Serif Simplified Chinese SemiBold)
 FamilyName                 (Source Han Serif Simplified Chinese)
 Weight                     (SemiBold)
-version                    (1.000)
+version                    (1.001)
 Registry                   (Adobe)
 Ordering                   (Identity)
 Supplement                 0

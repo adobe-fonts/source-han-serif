@@ -2,7 +2,7 @@ FontName                   (SourceHanSerif-ExtraLight)
 FullName                   (Source Han Serif ExtraLight)
 FamilyName                 (Source Han Serif)
 Weight                     (ExtraLight)
-version                    (1.000)
+version                    (1.001)
 Registry                   (Adobe)
 Ordering                   (Identity)
 Supplement                 0

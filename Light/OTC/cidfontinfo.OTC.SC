@@ -2,7 +2,7 @@ FontName                   (SourceHanSerifSC-Light)
 FullName                   (Source Han Serif Simplified Chinese Light)
 FamilyName                 (Source Han Serif Simplified Chinese)
 Weight                     (Light)
-version                    (1.000)
+version                    (1.001)
 Registry                   (Adobe)
 Ordering                   (Identity)
 Supplement                 0

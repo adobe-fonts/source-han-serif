@@ -14,7 +14,7 @@ languagesystem grek dflt;
 languagesystem cyrl dflt;
 
 table head {
-  FontRevision 1.000;
+  FontRevision 1.001;
 } head;
 
 table hhea {
@@ -1258,7 +1258,6 @@ lookup ljmo_01 {
   substitute \457 by \63015;
   substitute \458 by \63016;
   substitute \459 by \63017;
-  substitute \460 by \460;
   substitute \48489 by \63018;
   substitute \48490 by \63019;
   substitute \48491 by \63020;
@@ -1386,7 +1385,6 @@ lookup ljmo_02 {
   substitute \457 by \63139;
   substitute \458 by \63140;
   substitute \459 by \63141;
-  substitute \460 by \460;
   substitute \48489 by \63142;
   substitute \48490 by \63143;
   substitute \48491 by \63144;
@@ -1514,7 +1512,6 @@ lookup ljmo_03 {
   substitute \457 by \63263;
   substitute \458 by \63264;
   substitute \459 by \63265;
-  substitute \460 by \460;
   substitute \48489 by \63266;
   substitute \48490 by \63267;
   substitute \48491 by \63268;
@@ -1642,7 +1639,6 @@ lookup ljmo_04 {
   substitute \457 by \63387;
   substitute \458 by \63388;
   substitute \459 by \63389;
-  substitute \460 by \460;
   substitute \48489 by \63390;
   substitute \48490 by \63391;
   substitute \48491 by \63392;
@@ -1770,7 +1766,6 @@ lookup ljmo_05 {
   substitute \457 by \63511;
   substitute \458 by \63512;
   substitute \459 by \63513;
-  substitute \460 by \460;
   substitute \48489 by \63514;
   substitute \48490 by \63515;
   substitute \48491 by \63516;
@@ -1898,7 +1893,6 @@ lookup ljmo_06 {
   substitute \457 by \63635;
   substitute \458 by \63636;
   substitute \459 by \63637;
-  substitute \460 by \460;
   substitute \48489 by \63638;
   substitute \48490 by \63639;
   substitute \48491 by \63640;
@@ -1931,27 +1925,34 @@ lookup ljmo_06 {
 } ljmo_06;
 
 lookup ljmo_first {
-  substitute [\365 \366 \367 \368 \369 \370 \371 \372 \373 \374 \375 \376 \377 \378 \379 \380 \381 \382 \383 \384 \385 \386 \387 \388 \389 \390 \391 \392 \393 \394 \395 \396 \397 \398 \399 \400 \401 \402 \403 \404 \405 \406 \407 \408 \409 \410 \411 \412 \413 \414 \415 \416 \417 \418 \419 \420 \421 \422 \423 \424 \425 \426 \427 \428 \429 \430 \431 \432 \433 \434 \435 \436 \437 \438 \439 \440 \441 \442 \443 \444 \445 \446 \447 \448 \449 \450 \451 \452 \453 \454 \455 \456 \457 \458 \459 \460 \48489 \48490 \48491 \48492 \48493 \48494 \48495 \48496 \48497 \48498 \48499 \48500 \48501 \48502 \48503 \48504 \48505 \48506 \48507 \48508 \48509 \48510 \48511 \48512 \48513 \48514 \48515 \48516 \48517]' lookup ljmo_01 [\462 \463 \464 \465 \466 \467 \468 \469 \482 \517 \518 \522 \530 \59704 \59705 \59706 \59710] [\533 \534 \535 \536 \537 \538 \539 \540 \541 \542 \543 \544 \545 \546 \547 \548 \549 \550 \551 \552 \553 \554 \555 \556 \557 \558 \559 \560 \561 \562 \563 \564 \565 \566 \567 \568 \569 \570 \571 \572 \573 \574 \575 \576 \577 \578 \579 \580 \581 \582 \583 \584 \585 \586 \587 \588 \589 \590 \591 \592 \593 \594 \595 \596 \597 \598 \599 \600 \601 \602 \603 \604 \605 \606 \607 \608 \609 \610 \611 \612 \613 \614 \615 \616 \617 \618 \619 \620 \59713 \59714 \59715 \59716 \59717 \59718 \59719 \59720 \59721 \59722 \59723 \59724 \59725 \59726 \59727 \59728 \59729 \59730 \59731 \59732 \59733 \59734 \59735 \59736 \59737 \59738 \59739 \59740 \59741 \59742 \59743 \59744 \59745 \59746 \59747 \59748 \59749 \59750 \59751 \59752 \59753 \59754 \59755 \59756 \59757 \59758 \59759 \59760 \59761];
+  @LJMO = [\365-\459 \48489-\48517];
+  @LJMO_VJMO_1_4 = [\462-\469 \482 \517 \518 \522 \530 \59704-\59706 \59710];
+
+  substitute @LJMO' lookup ljmo_01 @LJMO_VJMO_1_4 @TJMO;
 } ljmo_first;
 
 lookup ljmo_second {
-  substitute [\365 \366 \367 \368 \369 \370 \371 \372 \373 \374 \375 \376 \377 \378 \379 \380 \381 \382 \383 \384 \385 \386 \387 \388 \389 \390 \391 \392 \393 \394 \395 \396 \397 \398 \399 \400 \401 \402 \403 \404 \405 \406 \407 \408 \409 \410 \411 \412 \413 \414 \415 \416 \417 \418 \419 \420 \421 \422 \423 \424 \425 \426 \427 \428 \429 \430 \431 \432 \433 \434 \435 \436 \437 \438 \439 \440 \441 \442 \443 \444 \445 \446 \447 \448 \449 \450 \451 \452 \453 \454 \455 \456 \457 \458 \459 \460 \48489 \48490 \48491 \48492 \48493 \48494 \48495 \48496 \48497 \48498 \48499 \48500 \48501 \48502 \48503 \48504 \48505 \48506 \48507 \48508 \48509 \48510 \48511 \48512 \48513 \48514 \48515 \48516 \48517]' lookup ljmo_02 [\461 \470 \474 \475 \479 \480 \495 \496 \500 \506 \512 \514 \515 \523 \525 \527 \59691 \59698 \59702] [\533 \534 \535 \536 \537 \538 \539 \540 \541 \542 \543 \544 \545 \546 \547 \548 \549 \550 \551 \552 \553 \554 \555 \556 \557 \558 \559 \560 \561 \562 \563 \564 \565 \566 \567 \568 \569 \570 \571 \572 \573 \574 \575 \576 \577 \578 \579 \580 \581 \582 \583 \584 \585 \586 \587 \588 \589 \590 \591 \592 \593 \594 \595 \596 \597 \598 \599 \600 \601 \602 \603 \604 \605 \606 \607 \608 \609 \610 \611 \612 \613 \614 \615 \616 \617 \618 \619 \620 \59713 \59714 \59715 \59716 \59717 \59718 \59719 \59720 \59721 \59722 \59723 \59724 \59725 \59726 \59727 \59728 \59729 \59730 \59731 \59732 \59733 \59734 \59735 \59736 \59737 \59738 \59739 \59740 \59741 \59742 \59743 \59744 \59745 \59746 \59747 \59748 \59749 \59750 \59751 \59752 \59753 \59754 \59755 \59756 \59757 \59758 \59759 \59760 \59761];
+  @LJMO_VJMO_2_5 = [\461 \470 \474 \475 \479 \480 \495 \496 \500 \506 \512 \514 \515 \523 \525 \527 \59691 \59698 \59702];
+
+  substitute @LJMO' lookup ljmo_02 @LJMO_VJMO_2_5 @TJMO;
 } ljmo_second;
 
 lookup ljmo_third {
-  substitute [\365 \366 \367 \368 \369 \370 \371 \372 \373 \374 \375 \376 \377 \378 \379 \380 \381 \382 \383 \384 \385 \386 \387 \388 \389 \390 \391 \392 \393 \394 \395 \396 \397 \398 \399 \400 \401 \402 \403 \404 \405 \406 \407 \408 \409 \410 \411 \412 \413 \414 \415 \416 \417 \418 \419 \420 \421 \422 \423 \424 \425 \426 \427 \428 \429 \430 \431 \432 \433 \434 \435 \436 \437 \438 \439 \440 \441 \442 \443 \444 \445 \446 \447 \448 \449 \450 \451 \452 \453 \454 \455 \456 \457 \458 \459 \460 \48489 \48490 \48491 \48492 \48493 \48494 \48495 \48496 \48497 \48498 \48499 \48500 \48501 \48502 \48503 \48504 \48505 \48506 \48507 \48508 \48509 \48510 \48511 \48512 \48513 \48514 \48515 \48516 \48517]' lookup ljmo_03 [\471 \472 \473 \476 \477 \478 \481 \483 \484 \485 \486 \487 \488 \489 \490 \491 \492 \493 \494 \497 \498 \499 \501 \502 \503 \504 \505 \507 \508 \509 \510 \511 \513 \516 \519 \520 \521 \524 \526 \528 \529 \531 \532 \59690 \59692 \59693 \59694 \59695 \59696 \59697 \59699 \59700 \59701 \59703 \59707 \59708 \59709 \59711 \59712] [\533 \534 \535 \536 \537 \538 \539 \540 \541 \542 \543 \544 \545 \546 \547 \548 \549 \550 \551 \552 \553 \554 \555 \556 \557 \558 \559 \560 \561 \562 \563 \564 \565 \566 \567 \568 \569 \570 \571 \572 \573 \574 \575 \576 \577 \578 \579 \580 \581 \582 \583 \584 \585 \586 \587 \588 \589 \590 \591 \592 \593 \594 \595 \596 \597 \598 \599 \600 \601 \602 \603 \604 \605 \606 \607 \608 \609 \610 \611 \612 \613 \614 \615 \616 \617 \618 \619 \620 \59713 \59714 \59715 \59716 \59717 \59718 \59719 \59720 \59721 \59722 \59723 \59724 \59725 \59726 \59727 \59728 \59729 \59730 \59731 \59732 \59733 \59734 \59735 \59736 \59737 \59738 \59739 \59740 \59741 \59742 \59743 \59744 \59745 \59746 \59747 \59748 \59749 \59750 \59751 \59752 \59753 \59754 \59755 \59756 \59757 \59758 \59759 \59760 \59761];
+  @LJMO_VJMO_3_6 = [\471-\473 \476-\478 \481 \483-\494 \497-\499 \501-\505 \507-\511 \513 \516 \519-\521 \524 \526 \528 \529 \531 \532 \59690 \59692-\59697 \59699-\59701 \59703 \59707-\59709 \59711 \59712];
+
+  substitute @LJMO' lookup ljmo_03 @LJMO_VJMO_3_6 @TJMO;
 } ljmo_third;
 
 lookup ljmo_fourth {
-  substitute [\365 \366 \367 \368 \369 \370 \371 \372 \373 \374 \375 \376 \377 \378 \379 \380 \381 \382 \383 \384 \385 \386 \387 \388 \389 \390 \391 \392 \393 \394 \395 \396 \397 \398 \399 \400 \401 \402 \403 \404 \405 \406 \407 \408 \409 \410 \411 \412 \413 \414 \415 \416 \417 \418 \419 \420 \421 \422 \423 \424 \425 \426 \427 \428 \429 \430 \431 \432 \433 \434 \435 \436 \437 \438 \439 \440 \441 \442 \443 \444 \445 \446 \447 \448 \449 \450 \451 \452 \453 \454 \455 \456 \457 \458 \459 \460 \48489 \48490 \48491 \48492 \48493 \48494 \48495 \48496 \48497 \48498 \48499 \48500 \48501 \48502 \48503 \48504 \48505 \48506 \48507 \48508 \48509 \48510 \48511 \48512 \48513 \48514 \48515 \48516 \48517]' lookup ljmo_04 [\462 \463 \464 \465 \466 \467 \468 \469 \482 \517 \518 \522 \530 \59704 \59705 \59706 \59710];
+  substitute @LJMO' lookup ljmo_04 @LJMO_VJMO_1_4;
 } ljmo_fourth;
 
 lookup ljmo_fifth {
-  substitute [\365 \366 \367 \368 \369 \370 \371 \372 \373 \374 \375 \376 \377 \378 \379 \380 \381 \382 \383 \384 \385 \386 \387 \388 \389 \390 \391 \392 \393 \394 \395 \396 \397 \398 \399 \400 \401 \402 \403 \404 \405 \406 \407 \408 \409 \410 \411 \412 \413 \414 \415 \416 \417 \418 \419 \420 \421 \422 \423 \424 \425 \426 \427 \428 \429 \430 \431 \432 \433 \434 \435 \436 \437 \438 \439 \440 \441 \442 \443 \444 \445 \446 \447 \448 \449 \450 \451 \452 \453 \454 \455 \456 \457 \458 \459 \460 \48489 \48490 \48491 \48492 \48493 \48494 \48495 \48496 \48497 \48498 \48499 \48500 \48501 \48502 \48503 \48504 \48505 \48506 \48507 \48508 \48509 \48510 \48511 \48512 \48513 \48514 \48515 \48516 \48517]' lookup ljmo_05 [\461 \470 \474 \475 \479 \480 \495 \496 \500 \506 \512 \514 \515 \523 \525 \527 \59691 \59698 \59702];
+  substitute @LJMO' lookup ljmo_05 @LJMO_VJMO_2_5;
 } ljmo_fifth;
 
 lookup ljmo_sixth {
-  substitute [\365 \366 \367 \368 \369 \370 \371 \372 \373 \374 \375 \376 \377 \378 \379 \380 \381 \382 \383 \384 \385 \386 \387 \388 \389 \390 \391 \392 \393 \394 \395 \396 \397 \398 \399 \400 \401 \402 \403 \404 \405 \406 \407 \408 \409 \410 \411 \412 \413 \414 \415 \416 \417 \418 \419 \420 \421 \422 \423 \424 \425 \426 \427 \428 \429 \430 \431 \432 \433 \434 \435 \436 \437 \438 \439 \440 \441 \442 \443 \444 \445 \446 \447 \448 \449 \450 \451 \452 \453 \454 \455 \456 \457 \458 \459 \460 \48489 \48490 \48491 \48492 \48493 \48494 \48495 \48496 \48497 \48498 \48499 \48500 \48501 \48502 \48503 \48504 \48505 \48506 \48507 \48508 \48509 \48510 \48511 \48512 \48513 \48514 \48515 \48516 \48517]' lookup ljmo_06 [\471 \472 \473 \476 \477 \478 \481 \483 \484 \485 \486 \487 \488 \489 \490 \491 \492 \493 \494 \497 \498 \499 \501 \502 \503 \504 \505 \507 \508 \509 \510 \511 \513 \516 \519 \520 \521 \524 \526 \528 \529 \531 \532 \59690 \59692 \59693 \59694 \59695 \59696 \59697 \59699 \59700 \59701 \59703 \59707 \59708 \59709 \59711 \59712];
+  substitute @LJMO' lookup ljmo_06 @LJMO_VJMO_3_6;
 } ljmo_sixth;
 
 feature ljmo {
@@ -2163,11 +2164,13 @@ lookup vjmo_02 {
 } vjmo_02;
 
 lookup vjmo_first {
-  substitute [\461 \462 \463 \464 \465 \466 \467 \468 \469 \470 \471 \472 \473 \474 \475 \476 \477 \478 \479 \480 \481 \482 \483 \484 \485 \486 \487 \488 \489 \490 \491 \492 \493 \494 \495 \496 \497 \498 \499 \500 \501 \502 \503 \504 \505 \506 \507 \508 \509 \510 \511 \512 \513 \514 \515 \516 \517 \518 \519 \520 \521 \522 \523 \524 \525 \526 \527 \528 \529 \530 \531 \532 \59690 \59691 \59692 \59693 \59694 \59695 \59696 \59697 \59698 \59699 \59700 \59701 \59702 \59703 \59704 \59705 \59706 \59707 \59708 \59709 \59710 \59711 \59712]' lookup vjmo_01 [\533 \534 \535 \536 \537 \538 \539 \540 \541 \542 \543 \544 \545 \546 \547 \548 \549 \550 \551 \552 \553 \554 \555 \556 \557 \558 \559 \560 \561 \562 \563 \564 \565 \566 \567 \568 \569 \570 \571 \572 \573 \574 \575 \576 \577 \578 \579 \580 \581 \582 \583 \584 \585 \586 \587 \588 \589 \590 \591 \592 \593 \594 \595 \596 \597 \598 \599 \600 \601 \602 \603 \604 \605 \606 \607 \608 \609 \610 \611 \612 \613 \614 \615 \616 \617 \618 \619 \620 \59713 \59714 \59715 \59716 \59717 \59718 \59719 \59720 \59721 \59722 \59723 \59724 \59725 \59726 \59727 \59728 \59729 \59730 \59731 \59732 \59733 \59734 \59735 \59736 \59737 \59738 \59739 \59740 \59741 \59742 \59743 \59744 \59745 \59746 \59747 \59748 \59749 \59750 \59751 \59752 \59753 \59754 \59755 \59756 \59757 \59758 \59759 \59760 \59761];
+  @VJMO = [\461-\532 \59690-\59712];
+
+  substitute @VJMO' lookup vjmo_01 @TJMO;
 } vjmo_first;
 
 lookup vjmo_second {
-  substitute [\461 \462 \463 \464 \465 \466 \467 \468 \469 \470 \471 \472 \473 \474 \475 \476 \477 \478 \479 \480 \481 \482 \483 \484 \485 \486 \487 \488 \489 \490 \491 \492 \493 \494 \495 \496 \497 \498 \499 \500 \501 \502 \503 \504 \505 \506 \507 \508 \509 \510 \511 \512 \513 \514 \515 \516 \517 \518 \519 \520 \521 \522 \523 \524 \525 \526 \527 \528 \529 \530 \531 \532 \59690 \59691 \59692 \59693 \59694 \59695 \59696 \59697 \59698 \59699 \59700 \59701 \59702 \59703 \59704 \59705 \59706 \59707 \59708 \59709 \59710 \59711 \59712]' lookup vjmo_02;
+  substitute @VJMO' lookup vjmo_02;
 } vjmo_second;
 
 feature vjmo {
@@ -2739,19 +2742,27 @@ lookup tjmo_04 {
 } tjmo_04;
 
 lookup tjmo_first {
-  substitute [\63668 \63670 \63677 \63703 \63708 \63713 \63737 \63741 \63748 \63760] [\533 \534 \535 \536 \537 \538 \539 \540 \541 \542 \543 \544 \545 \546 \547 \548 \549 \550 \551 \552 \553 \554 \555 \556 \557 \558 \559 \560 \561 \562 \563 \564 \565 \566 \567 \568 \569 \570 \571 \572 \573 \574 \575 \576 \577 \578 \579 \580 \581 \582 \583 \584 \585 \586 \587 \588 \589 \590 \591 \592 \593 \594 \595 \596 \597 \598 \599 \600 \601 \602 \603 \604 \605 \606 \607 \608 \609 \610 \611 \612 \613 \614 \615 \616 \617 \618 \619 \620 \59713 \59714 \59715 \59716 \59717 \59718 \59719 \59720 \59721 \59722 \59723 \59724 \59725 \59726 \59727 \59728 \59729 \59730 \59731 \59732 \59733 \59734 \59735 \59736 \59737 \59738 \59739 \59740 \59741 \59742 \59743 \59744 \59745 \59746 \59747 \59748 \59749 \59750 \59751 \59752 \59753 \59754 \59755 \59756 \59757 \59758 \59759 \59760 \59761]' lookup tjmo_01;
+  @TJMO_VJMO_1 = [\63668 \63670 \63677 \63703 \63708 \63713 \63737 \63741 \63748 \63760];
+
+  substitute @TJMO_VJMO_1 @TJMO' lookup tjmo_01;
 } tjmo_first;
 
 lookup tjmo_second {
-  substitute [\63672 \63674 \63679 \63682 \63684 \63687 \63688 \63698 \63705 \63707 \63714 \63716 \63719 \63728 \63730 \63732 \63736 \63739 \63743 \63744 \63749] [\533 \534 \535 \536 \537 \538 \539 \540 \541 \542 \543 \544 \545 \546 \547 \548 \549 \550 \551 \552 \553 \554 \555 \556 \557 \558 \559 \560 \561 \562 \563 \564 \565 \566 \567 \568 \569 \570 \571 \572 \573 \574 \575 \576 \577 \578 \579 \580 \581 \582 \583 \584 \585 \586 \587 \588 \589 \590 \591 \592 \593 \594 \595 \596 \597 \598 \599 \600 \601 \602 \603 \604 \605 \606 \607 \608 \609 \610 \611 \612 \613 \614 \615 \616 \617 \618 \619 \620 \59713 \59714 \59715 \59716 \59717 \59718 \59719 \59720 \59721 \59722 \59723 \59724 \59725 \59726 \59727 \59728 \59729 \59730 \59731 \59732 \59733 \59734 \59735 \59736 \59737 \59738 \59739 \59740 \59741 \59742 \59743 \59744 \59745 \59746 \59747 \59748 \59749 \59750 \59751 \59752 \59753 \59754 \59755 \59756 \59757 \59758 \59759 \59760 \59761]' lookup tjmo_02;
+  @TJMO_VJMO_2 = [\63672 \63674 \63679 \63682 \63684 \63687 \63688 \63698 \63705 \63707 \63714 \63716 \63719 \63728 \63730 \63732 \63736 \63739 \63743 \63744 \63749];
+
+  substitute @TJMO_VJMO_2 @TJMO' lookup tjmo_02;
 } tjmo_second;
 
 lookup tjmo_third {
-  substitute [\63669 \63671 \63673 \63675 \63678 \63683 \63699 \63700 \63704 \63709 \63711 \63715 \63717 \63723 \63724 \63738 \63742 \63745 \63746 \63750 \63753 \63754 \63755 \63759 \63761] [\533 \534 \535 \536 \537 \538 \539 \540 \541 \542 \543 \544 \545 \546 \547 \548 \549 \550 \551 \552 \553 \554 \555 \556 \557 \558 \559 \560 \561 \562 \563 \564 \565 \566 \567 \568 \569 \570 \571 \572 \573 \574 \575 \576 \577 \578 \579 \580 \581 \582 \583 \584 \585 \586 \587 \588 \589 \590 \591 \592 \593 \594 \595 \596 \597 \598 \599 \600 \601 \602 \603 \604 \605 \606 \607 \608 \609 \610 \611 \612 \613 \614 \615 \616 \617 \618 \619 \620 \59713 \59714 \59715 \59716 \59717 \59718 \59719 \59720 \59721 \59722 \59723 \59724 \59725 \59726 \59727 \59728 \59729 \59730 \59731 \59732 \59733 \59734 \59735 \59736 \59737 \59738 \59739 \59740 \59741 \59742 \59743 \59744 \59745 \59746 \59747 \59748 \59749 \59750 \59751 \59752 \59753 \59754 \59755 \59756 \59757 \59758 \59759 \59760 \59761]' lookup tjmo_03;
+  @TJMO_VJMO_3 = [\63669 \63671 \63673 \63675 \63678 \63683 \63699 \63700 \63704 \63709 \63711 \63715 \63717 \63723 \63724 \63738 \63742 \63745 \63746 \63750 \63753 \63754 \63755 \63759 \63761];
+
+  substitute @TJMO_VJMO_3 @TJMO' lookup tjmo_03;
 } tjmo_third;
 
 lookup tjmo_fourth {
-  substitute [\63667 \63676 \63680 \63681 \63685 \63686 \63689 \63690 \63691 \63692 \63693 \63694 \63695 \63696 \63697 \63701 \63702 \63706 \63710 \63712 \63718 \63720 \63721 \63722 \63725 \63726 \63727 \63729 \63731 \63733 \63734 \63735 \63740 \63747 \63751 \63752 \63756 \63757 \63758] [\533 \534 \535 \536 \537 \538 \539 \540 \541 \542 \543 \544 \545 \546 \547 \548 \549 \550 \551 \552 \553 \554 \555 \556 \557 \558 \559 \560 \561 \562 \563 \564 \565 \566 \567 \568 \569 \570 \571 \572 \573 \574 \575 \576 \577 \578 \579 \580 \581 \582 \583 \584 \585 \586 \587 \588 \589 \590 \591 \592 \593 \594 \595 \596 \597 \598 \599 \600 \601 \602 \603 \604 \605 \606 \607 \608 \609 \610 \611 \612 \613 \614 \615 \616 \617 \618 \619 \620 \59713 \59714 \59715 \59716 \59717 \59718 \59719 \59720 \59721 \59722 \59723 \59724 \59725 \59726 \59727 \59728 \59729 \59730 \59731 \59732 \59733 \59734 \59735 \59736 \59737 \59738 \59739 \59740 \59741 \59742 \59743 \59744 \59745 \59746 \59747 \59748 \59749 \59750 \59751 \59752 \59753 \59754 \59755 \59756 \59757 \59758 \59759 \59760 \59761]' lookup tjmo_04;
+  @TJMO_VJMO_4 = [\63667 \63676 \63680 \63681 \63685 \63686 \63689-\63697 \63701 \63702 \63706 \63710 \63712 \63718 \63720-\63722 \63725-\63727 \63729 \63731 \63733-\63735 \63740 \63747 \63751 \63752 \63756-\63758];
+
+  substitute @TJMO_VJMO_4 @TJMO' lookup tjmo_04;
 } tjmo_fourth;
 
 feature tjmo {
@@ -3192,6 +3203,39 @@ feature fwid {
   substitute \742 by \60159;
   substitute \1348 by \62284;
   substitute \1349 by \62285;
+  substitute \62249 by \1396;
+  substitute \62250 by \59944;
+  substitute \62251 by \59945;
+  substitute \62252 by \59950;
+  substitute \62253 by \59951;
+  substitute \62254 by \59952;
+  substitute \62255 by \59955;
+  substitute \62256 by \59956;
+  substitute \62257 by \59957;
+  substitute \62258 by \59958;
+  substitute \62259 by \59969;
+  substitute \62260 by \59970;
+  substitute \62261 by \59974;
+  substitute \62262 by \60002;
+  substitute \62263 by \60004;
+  substitute \62264 by \60034;
+  substitute \62265 by \60036;
+  substitute \62266 by \1424;
+  substitute \62269 by \716;
+  substitute \62270 by \62419;
+  substitute \62271 by \62420;
+  substitute \62273 by \62421;
+  substitute \62274 by \62422;
+  substitute \62294 by \59959;
+  substitute \62295 by \59960;
+  substitute \62296 by \59961;
+  substitute \62297 by \59962;
+  substitute \62298 by \59963;
+  substitute \62299 by \59964;
+  substitute \62300 by \59965;
+  substitute \62301 by \59966;
+  substitute \62302 by \59967;
+  substitute \62303 by \59968;
   substitute \62304 by \728;
   substitute \62305 by \1396;
   substitute \62306 by \59944;
@@ -3290,6 +3334,23 @@ feature fwid {
   substitute \62399 by \1424;
   substitute \62400 by \60158;
   substitute \62401 by \60159;
+  substitute \62402 by \59944;
+  substitute \62403 by \59945;
+  substitute \62404 by \59950;
+  substitute \62405 by \59951;
+  substitute \62406 by \59952;
+  substitute \62407 by \59955;
+  substitute \62408 by \59956;
+  substitute \62409 by \59957;
+  substitute \62410 by \59958;
+  substitute \62411 by \59969;
+  substitute \62412 by \59970;
+  substitute \62413 by \59974;
+  substitute \62414 by \60002;
+  substitute \62415 by \60004;
+  substitute \62416 by \60034;
+  substitute \62417 by \60036;
+  substitute \62418 by \1424;
 } fwid;
 
 feature hwid {
@@ -3487,6 +3548,34 @@ feature hwid {
   substitute \60036 by \62398;
   substitute \60158 by \62400;
   substitute \60159 by \62401;
+  substitute \62249 by \62305;
+  substitute \62250 by \62402;
+  substitute \62251 by \62403;
+  substitute \62252 by \62404;
+  substitute \62253 by \62405;
+  substitute \62254 by \62406;
+  substitute \62255 by \62407;
+  substitute \62256 by \62408;
+  substitute \62257 by \62409;
+  substitute \62258 by \62410;
+  substitute \62259 by \62411;
+  substitute \62260 by \62412;
+  substitute \62261 by \62413;
+  substitute \62262 by \62414;
+  substitute \62263 by \62415;
+  substitute \62264 by \62416;
+  substitute \62265 by \62417;
+  substitute \62266 by \62418;
+  substitute \62294 by \62321;
+  substitute \62295 by \62322;
+  substitute \62296 by \62323;
+  substitute \62297 by \62324;
+  substitute \62298 by \62325;
+  substitute \62299 by \62326;
+  substitute \62300 by \62327;
+  substitute \62301 by \62328;
+  substitute \62302 by \62329;
+  substitute \62303 by \62330;
 } hwid;
 
 feature pwid {
@@ -3688,10 +3777,27 @@ feature pwid {
   substitute \62399 by \95;
   substitute \62400 by \100;
   substitute \62401 by \742;
-  substitute \62419 by \718;
-  substitute \62420 by \719;
-  substitute \62421 by \721;
-  substitute \62422 by \722;
+  substitute \62402 by \62250;
+  substitute \62403 by \62251;
+  substitute \62404 by \62252;
+  substitute \62405 by \62253;
+  substitute \62406 by \62254;
+  substitute \62407 by \62255;
+  substitute \62408 by \62256;
+  substitute \62409 by \62257;
+  substitute \62410 by \62258;
+  substitute \62411 by \62259;
+  substitute \62412 by \62260;
+  substitute \62413 by \62261;
+  substitute \62414 by \62262;
+  substitute \62415 by \62263;
+  substitute \62416 by \62264;
+  substitute \62417 by \62265;
+  substitute \62418 by \62266;
+  substitute \62419 by \62270;
+  substitute \62420 by \62271;
+  substitute \62421 by \62273;
+  substitute \62422 by \62274;
 } pwid;
 
 lookup cn2jp useExtension {
@@ -4280,7 +4386,6 @@ lookup cn2jp useExtension {
   substitute \9764 by \9763;
   substitute \9767 by \9766;
   substitute \9771 by \9770;
-  substitute \9777 by \9776;
   substitute \9789 by \9788;
   substitute \9793 by \9792;
   substitute \9797 by \9796;
@@ -4346,7 +4451,6 @@ lookup cn2jp useExtension {
   substitute \10070 by \10069;
   substitute \10073 by \10072;
   substitute \10077 by \10076;
-  substitute \10079 by \10078;
   substitute \10087 by \10086;
   substitute \10091 by \10090;
   substitute \10093 by \10092;
@@ -7297,9 +7401,7 @@ lookup cn2jp useExtension {
   substitute \19282 by \19281;
   substitute \19287 by \19286;
   substitute \19292 by \19291;
-  substitute \19298 by \19297;
   substitute \19300 by \19299;
-  substitute \19302 by \19301;
   substitute \19306 by \19305;
   substitute \19309 by \19308;
   substitute \19311 by \19310;
@@ -7765,7 +7867,6 @@ lookup cn2jp useExtension {
   substitute \20800 by \20799;
   substitute \20805 by \20804;
   substitute \20809 by \20808;
-  substitute \20812 by \20811;
   substitute \20820 by \20819;
   substitute \20822 by \20821;
   substitute \20824 by \20823;
@@ -8558,7 +8659,6 @@ lookup cn2jp useExtension {
   substitute \23487 by \23486;
   substitute \23490 by \23489;
   substitute \23493 by \23492;
-  substitute \23500 by \23499;
   substitute \23505 by \23504;
   substitute \23507 by \23506;
   substitute \23517 by \23516;
@@ -8728,7 +8828,6 @@ lookup cn2jp useExtension {
   substitute \24152 by \24151;
   substitute \24161 by \24160;
   substitute \24163 by \24162;
-  substitute \24166 by \24165;
   substitute \24168 by \24167;
   substitute \24170 by \24169;
   substitute \24172 by \24171;
@@ -8744,7 +8843,6 @@ lookup cn2jp useExtension {
   substitute \24199 by \24198;
   substitute \24201 by \24200;
   substitute \24204 by \24203;
-  substitute \24212 by \24211;
   substitute \24220 by \24219;
   substitute \24222 by \24221;
   substitute \24226 by \24225;
@@ -8828,7 +8926,6 @@ lookup cn2jp useExtension {
   substitute \24522 by \24521;
   substitute \24524 by \24523;
   substitute \24527 by \24526;
-  substitute \24531 by \24530;
   substitute \24534 by \24533;
   substitute \24536 by \24535;
   substitute \24539 by \24538;
@@ -11737,7 +11834,6 @@ lookup cn2jp useExtension {
   substitute \34081 by \34080;
   substitute \34083 by \34082;
   substitute \34085 by \34084;
-  substitute \34089 by \34088;
   substitute \34094 by \34093;
   substitute \34096 by \34095;
   substitute \34098 by \34097;
@@ -16064,6 +16160,29 @@ lookup cn2jp useExtension {
   substitute \62420 by \719;
   substitute \62421 by \721;
   substitute \62422 by \722;
+  substitute \64747 by \2976;
+  substitute \64748 by \3660;
+  substitute \64750 by \10295;
+  substitute \64751 by \13629;
+  substitute \64754 by \18677;
+  substitute \64756 by \19709;
+  substitute \64757 by \19903;
+  substitute \64758 by \20855;
+  substitute \64759 by \20967;
+  substitute \64761 by \21802;
+  substitute \64764 by \24693;
+  substitute \64766 by \28498;
+  substitute \64767 by \28995;
+  substitute \64768 by \29343;
+  substitute \64769 by \29920;
+  substitute \64770 by \30033;
+  substitute \64771 by \30786;
+  substitute \64774 by \35125;
+  substitute \64778 by \42660;
+  substitute \64779 by \42734;
+  substitute \64781 by \44094;
+  substitute \64783 by \46643;
+  substitute \64784 by \46825;
 } cn2jp;
 
 lookup cn2kr useExtension {
@@ -16653,7 +16772,6 @@ lookup cn2kr useExtension {
   substitute \9764 by \9763;
   substitute \9767 by \9766;
   substitute \9771 by \9770;
-  substitute \9777 by \9776;
   substitute \9789 by \9788;
   substitute \9793 by \9792;
   substitute \9797 by \9796;
@@ -16720,7 +16838,6 @@ lookup cn2kr useExtension {
   substitute \10070 by \10069;
   substitute \10073 by \10072;
   substitute \10077 by \10076;
-  substitute \10079 by \10078;
   substitute \10087 by \10086;
   substitute \10091 by \10090;
   substitute \10093 by \10092;
@@ -16979,7 +17096,6 @@ lookup cn2kr useExtension {
   substitute \10926 by \10925;
   substitute \10928 by \10927;
   substitute \10934 by \10933;
-  substitute \10936 by \10935;
   substitute \10938 by \10937;
   substitute \10942 by \61267;
   substitute \10945 by \10944;
@@ -18496,7 +18612,7 @@ lookup cn2kr useExtension {
   substitute \15833 by \15832;
   substitute \15835 by \15834;
   substitute \15838 by \15837;
-  substitute \15840 by \15839;
+  substitute \15840 by \61393;
   substitute \15842 by \15841;
   substitute \15845 by \15844;
   substitute \15848 by \15847;
@@ -19684,9 +19800,7 @@ lookup cn2kr useExtension {
   substitute \19282 by \19281;
   substitute \19287 by \19286;
   substitute \19292 by \19291;
-  substitute \19298 by \19297;
   substitute \19300 by \19299;
-  substitute \19302 by \19301;
   substitute \19306 by \19305;
   substitute \19309 by \19308;
   substitute \19311 by \19310;
@@ -20155,7 +20269,6 @@ lookup cn2kr useExtension {
   substitute \20800 by \20799;
   substitute \20805 by \20804;
   substitute \20809 by \20808;
-  substitute \20812 by \20811;
   substitute \20820 by \20819;
   substitute \20822 by \20821;
   substitute \20824 by \20823;
@@ -20958,7 +21071,6 @@ lookup cn2kr useExtension {
   substitute \23487 by \23486;
   substitute \23490 by \23489;
   substitute \23493 by \23492;
-  substitute \23500 by \23499;
   substitute \23505 by \23504;
   substitute \23507 by \23506;
   substitute \23517 by \23516;
@@ -21131,7 +21243,6 @@ lookup cn2kr useExtension {
   substitute \24152 by \24151;
   substitute \24161 by \61618;
   substitute \24163 by \24162;
-  substitute \24166 by \24165;
   substitute \24168 by \24167;
   substitute \24170 by \24169;
   substitute \24172 by \24171;
@@ -21147,7 +21258,6 @@ lookup cn2kr useExtension {
   substitute \24199 by \24198;
   substitute \24201 by \24200;
   substitute \24204 by \24203;
-  substitute \24212 by \24211;
   substitute \24220 by \24219;
   substitute \24222 by \24221;
   substitute \24226 by \24225;
@@ -21232,7 +21342,6 @@ lookup cn2kr useExtension {
   substitute \24520 by \24519;
   substitute \24522 by \24521;
   substitute \24524 by \24523;
-  substitute \24531 by \24530;
   substitute \24534 by \24533;
   substitute \24536 by \24535;
   substitute \24539 by \24538;
@@ -24151,7 +24260,6 @@ lookup cn2kr useExtension {
   substitute \34081 by \34080;
   substitute \34083 by \34082;
   substitute \34085 by \34084;
-  substitute \34089 by \34088;
   substitute \34094 by \34093;
   substitute \34096 by \34095;
   substitute \34098 by \34097;
@@ -28457,6 +28565,29 @@ lookup cn2kr useExtension {
   substitute \62420 by \719;
   substitute \62421 by \721;
   substitute \62422 by \722;
+  substitute \64747 by \2976;
+  substitute \64748 by \3660;
+  substitute \64750 by \10295;
+  substitute \64751 by \13629;
+  substitute \64754 by \18677;
+  substitute \64756 by \19709;
+  substitute \64757 by \19903;
+  substitute \64758 by \20855;
+  substitute \64759 by \20967;
+  substitute \64761 by \21802;
+  substitute \64764 by \24693;
+  substitute \64766 by \28498;
+  substitute \64767 by \28995;
+  substitute \64768 by \29343;
+  substitute \64769 by \29920;
+  substitute \64770 by \30033;
+  substitute \64771 by \30786;
+  substitute \64774 by \35125;
+  substitute \64778 by \42660;
+  substitute \64779 by \42734;
+  substitute \64781 by \44094;
+  substitute \64783 by \46643;
+  substitute \64784 by \46825;
 } cn2kr;
 
 lookup cn2tw useExtension {
@@ -28580,7 +28711,7 @@ lookup cn2tw useExtension {
   substitute \10054 by \10055;
   substitute \10060 by \10061;
   substitute \10062 by \10063;
-  substitute \10079 by \10080;
+  substitute \10078 by \10080;
   substitute \10084 by \10085;
   substitute \10087 by \10088;
   substitute \10097 by \10098;
@@ -28588,6 +28719,7 @@ lookup cn2tw useExtension {
   substitute \10129 by \10130;
   substitute \10135 by \10136;
   substitute \10140 by \61247;
+  substitute \10145 by \64749;
   substitute \10147 by \10148;
   substitute \10150 by \10151;
   substitute \10158 by \10159;
@@ -28606,7 +28738,6 @@ lookup cn2tw useExtension {
   substitute \10269 by \10268;
   substitute \10284 by \10285;
   substitute \10291 by \10292;
-  substitute \10295 by \10296;
   substitute \10304 by \10305;
   substitute \10309 by \10310;
   substitute \10324 by \10325;
@@ -28623,7 +28754,7 @@ lookup cn2tw useExtension {
   substitute \10388 by \10389;
   substitute \10390 by \10391;
   substitute \10393 by \10394;
-  substitute \10399 by \10400;
+  substitute \10399 by \61251;
   substitute \10403 by \10404;
   substitute \10411 by \10412;
   substitute \10420 by \10421;
@@ -28869,7 +29000,9 @@ lookup cn2tw useExtension {
   substitute \12456 by \12457;
   substitute \12460 by \12461;
   substitute \12472 by \12471;
+  substitute \12483 by \61327;
   substitute \12489 by \12490;
+  substitute \12506 by \12505;
   substitute \12509 by \61328;
   substitute \12511 by \12510;
   substitute \12512 by \12513;
@@ -29028,7 +29161,6 @@ lookup cn2tw useExtension {
   substitute \13608 by \13609;
   substitute \13615 by \13616;
   substitute \13617 by \13618;
-  substitute \13629 by \13630;
   substitute \13632 by \13633;
   substitute \13645 by \13644;
   substitute \13664 by \13665;
@@ -29099,6 +29231,8 @@ lookup cn2tw useExtension {
   substitute \14064 by \14063;
   substitute \14067 by \14068;
   substitute \14071 by \14072;
+  substitute \14081 by \14080;
+  substitute \14095 by \14094;
   substitute \14097 by \14098;
   substitute \14112 by \14111;
   substitute \14118 by \14119;
@@ -29107,6 +29241,7 @@ lookup cn2tw useExtension {
   substitute \14126 by \14127;
   substitute \14131 by \14132;
   substitute \14137 by \14138;
+  substitute \14147 by \14146;
   substitute \14156 by \14157;
   substitute \14173 by \14174;
   substitute \14176 by \14177;
@@ -29709,6 +29844,7 @@ lookup cn2tw useExtension {
   substitute \17245 by \17246;
   substitute \17262 by \17263;
   substitute \17279 by \17280;
+  substitute \17282 by \64752;
   substitute \17284 by \17285;
   substitute \17291 by \17292;
   substitute \17300 by \17301;
@@ -29735,6 +29871,7 @@ lookup cn2tw useExtension {
   substitute \17435 by \17436;
   substitute \17438 by \17439;
   substitute \17445 by \17446;
+  substitute \17448 by \64753;
   substitute \17467 by \17466;
   substitute \17472 by \17473;
   substitute \17478 by \17479;
@@ -29918,6 +30055,7 @@ lookup cn2tw useExtension {
   substitute \18796 by \18797;
   substitute \18801 by \18802;
   substitute \18818 by \18819;
+  substitute \18827 by \18826;
   substitute \18830 by \18831;
   substitute \18837 by \18836;
   substitute \18841 by \18840;
@@ -29967,7 +30105,6 @@ lookup cn2tw useExtension {
   substitute \19093 by \19094;
   substitute \19096 by \19095;
   substitute \19103 by \19104;
-  substitute \19113 by \19114;
   substitute \19129 by \19130;
   substitute \19144 by \19145;
   substitute \19179 by \19180;
@@ -29983,7 +30120,7 @@ lookup cn2tw useExtension {
   substitute \19275 by \19276;
   substitute \19282 by \19283;
   substitute \19292 by \19293;
-  substitute \19302 by \19303;
+  substitute \19301 by \19303;
   substitute \19312 by \19313;
   substitute \19315 by \19316;
   substitute \19318 by \19319;
@@ -29993,6 +30130,7 @@ lookup cn2tw useExtension {
   substitute \19367 by \19368;
   substitute \19370 by \19371;
   substitute \19381 by \19382;
+  substitute \19398 by \64755;
   substitute \19400 by \19401;
   substitute \19403 by \19404;
   substitute \19425 by \19424;
@@ -30228,7 +30366,6 @@ lookup cn2tw useExtension {
   substitute \20945 by \20944;
   substitute \20956 by \20957;
   substitute \20965 by \20966;
-  substitute \20967 by \20968;
   substitute \20970 by \20969;
   substitute \20973 by \20972;
   substitute \20977 by \20978;
@@ -30333,6 +30470,7 @@ lookup cn2tw useExtension {
   substitute \21701 by \21702;
   substitute \21705 by \21704;
   substitute \21718 by \21719;
+  substitute \21722 by \64760;
   substitute \21727 by \21728;
   substitute \21734 by \21735;
   substitute \21736 by \21737;
@@ -30375,6 +30513,8 @@ lookup cn2tw useExtension {
   substitute \21939 by \21940;
   substitute \21942 by \21943;
   substitute \21945 by \21946;
+  substitute \21954 by \21953;
+  substitute \21956 by \21955;
   substitute \21958 by \21959;
   substitute \21962 by \21963;
   substitute \21965 by \21966;
@@ -30390,6 +30530,7 @@ lookup cn2tw useExtension {
   substitute \22056 by \22057;
   substitute \22061 by \22062;
   substitute \22066 by \22065;
+  substitute \22071 by \22070;
   substitute \22072 by \22073;
   substitute \22074 by \22075;
   substitute \22079 by \22080;
@@ -30670,6 +30811,7 @@ lookup cn2tw useExtension {
   substitute \24006 by \24007;
   substitute \24011 by \24012;
   substitute \24018 by \24019;
+  substitute \24021 by \64762;
   substitute \24025 by \24026;
   substitute \24028 by \24029;
   substitute \24035 by \24036;
@@ -30696,7 +30838,7 @@ lookup cn2tw useExtension {
   substitute \24194 by \24195;
   substitute \24204 by \24205;
   substitute \24207 by \24208;
-  substitute \24212 by \24213;
+  substitute \24211 by \24213;
   substitute \24214 by \24215;
   substitute \24223 by \24224;
   substitute \24227 by \24228;
@@ -30750,7 +30892,7 @@ lookup cn2tw useExtension {
   substitute \24517 by \24516;
   substitute \24524 by \24525;
   substitute \24527 by \24528;
-  substitute \24531 by \24532;
+  substitute \24530 by \24532;
   substitute \24549 by \24550;
   substitute \24552 by \24553;
   substitute \24562 by \24563;
@@ -30775,7 +30917,6 @@ lookup cn2tw useExtension {
   substitute \24675 by \24676;
   substitute \24678 by \24677;
   substitute \24682 by \24683;
-  substitute \24693 by \24694;
   substitute \24696 by \24697;
   substitute \24699 by \24700;
   substitute \24705 by \24706;
@@ -31033,6 +31174,7 @@ lookup cn2tw useExtension {
   substitute \25876 by \25877;
   substitute \25880 by \25881;
   substitute \25886 by \25887;
+  substitute \25889 by \25888;
   substitute \25891 by \25892;
   substitute \25898 by \25899;
   substitute \25905 by \25906;
@@ -31253,6 +31395,7 @@ lookup cn2tw useExtension {
   substitute \27036 by \27037;
   substitute \27044 by \27045;
   substitute \27060 by \27058;
+  substitute \27072 by \64765;
   substitute \27076 by \27077;
   substitute \27083 by \27084;
   substitute \27093 by \27094;
@@ -31467,11 +31610,9 @@ lookup cn2tw useExtension {
   substitute \28484 by \28485;
   substitute \28487 by \28488;
   substitute \28496 by \28497;
-  substitute \28498 by \28499;
   substitute \28503 by \28504;
   substitute \28506 by \28507;
   substitute \28510 by \28511;
-  substitute \28515 by \28516;
   substitute \28518 by \28519;
   substitute \28525 by \28526;
   substitute \28528 by \28529;
@@ -31506,7 +31647,7 @@ lookup cn2tw useExtension {
   substitute \28808 by \28809;
   substitute \28811 by \28810;
   substitute \28812 by \28813;
-  substitute \28817 by \28818;
+  substitute \28817 by \61705;
   substitute \28825 by \28826;
   substitute \28833 by \28834;
   substitute \28837 by \28836;
@@ -31522,6 +31663,7 @@ lookup cn2tw useExtension {
   substitute \28896 by \28897;
   substitute \28899 by \28900;
   substitute \28902 by \28903;
+  substitute \28907 by \28906;
   substitute \28909 by \28910;
   substitute \28912 by \28913;
   substitute \28919 by \28920;
@@ -31666,7 +31808,6 @@ lookup cn2tw useExtension {
   substitute \29994 by \29995;
   substitute \30006 by \30007;
   substitute \30019 by \30020;
-  substitute \30033 by \30034;
   substitute \30041 by \30042;
   substitute \30046 by \30047;
   substitute \30049 by \30050;
@@ -31854,7 +31995,6 @@ lookup cn2tw useExtension {
   substitute \30775 by \30776;
   substitute \30778 by \30779;
   substitute \30780 by \30781;
-  substitute \30786 by \30787;
   substitute \30789 by \30790;
   substitute \30795 by \30796;
   substitute \30805 by \30806;
@@ -32090,6 +32230,7 @@ lookup cn2tw useExtension {
   substitute \31814 by \31815;
   substitute \31819 by \31820;
   substitute \31824 by \31825;
+  substitute \31843 by \64772;
   substitute \31845 by \31846;
   substitute \31856 by \31857;
   substitute \31861 by \31862;
@@ -32190,6 +32331,7 @@ lookup cn2tw useExtension {
   substitute \32669 by \32670;
   substitute \32683 by \32684;
   substitute \32686 by \32687;
+  substitute \32694 by \64773;
   substitute \32696 by \32697;
   substitute \32705 by \32706;
   substitute \32720 by \32721;
@@ -32261,6 +32403,7 @@ lookup cn2tw useExtension {
   substitute \33091 by \33092;
   substitute \33093 by \61814;
   substitute \33095 by \33096;
+  substitute \33098 by \33097;
   substitute \33102 by \33103;
   substitute \33105 by \33104;
   substitute \33109 by \33108;
@@ -32280,6 +32423,7 @@ lookup cn2tw useExtension {
   substitute \33158 by \33157;
   substitute \33161 by \33162;
   substitute \33166 by \33167;
+  substitute \33171 by \33170;
   substitute \33175 by \33174;
   substitute \33177 by \33178;
   substitute \33180 by \33181;
@@ -32534,7 +32678,7 @@ lookup cn2tw useExtension {
   substitute \34060 by \34061;
   substitute \34063 by \34064;
   substitute \34070 by \34071;
-  substitute \34089 by \34090;
+  substitute \34088 by \34090;
   substitute \34100 by \34099;
   substitute \34101 by \34102;
   substitute \34106 by \34107;
@@ -32831,7 +32975,6 @@ lookup cn2tw useExtension {
   substitute \35118 by \35119;
   substitute \35120 by \35121;
   substitute \35123 by \35124;
-  substitute \35125 by \35126;
   substitute \35128 by \35129;
   substitute \35130 by \35131;
   substitute \35133 by \35134;
@@ -33343,6 +33486,7 @@ lookup cn2tw useExtension {
   substitute \36898 by \36899;
   substitute \36905 by \36906;
   substitute \36908 by \36909;
+  substitute \36911 by \64775;
   substitute \36918 by \36919;
   substitute \36921 by \36920;
   substitute \36933 by \36932;
@@ -33658,7 +33802,6 @@ lookup cn2tw useExtension {
   substitute \38982 by \38983;
   substitute \38985 by \38986;
   substitute \38988 by \38989;
-  substitute \38992 by \38993;
   substitute \38997 by \38998;
   substitute \39006 by \39007;
   substitute \39009 by \39010;
@@ -33780,6 +33923,7 @@ lookup cn2tw useExtension {
   substitute \40071 by \40072;
   substitute \40083 by \40084;
   substitute \40090 by \40091;
+  substitute \40104 by \64776;
   substitute \40108 by \40109;
   substitute \40119 by \40120;
   substitute \40121 by \40122;
@@ -34252,6 +34396,7 @@ lookup cn2tw useExtension {
   substitute \42588 by \42589;
   substitute \42594 by \42592;
   substitute \42600 by \42601;
+  substitute \42603 by \64777;
   substitute \42611 by \42612;
   substitute \42620 by \42621;
   substitute \42623 by \42624;
@@ -34266,7 +34411,6 @@ lookup cn2tw useExtension {
   substitute \42724 by \42723;
   substitute \42727 by \42728;
   substitute \42730 by \42731;
-  substitute \42734 by \42735;
   substitute \42738 by \42739;
   substitute \42742 by \42741;
   substitute \42744 by \42745;
@@ -34378,6 +34522,7 @@ lookup cn2tw useExtension {
   substitute \43714 by \43715;
   substitute \43716 by \43717;
   substitute \43730 by \43729;
+  substitute \43732 by \64780;
   substitute \43738 by \43739;
   substitute \43747 by \43748;
   substitute \43751 by \43752;
@@ -34415,7 +34560,6 @@ lookup cn2tw useExtension {
   substitute \44072 by \44073;
   substitute \44087 by \44088;
   substitute \44091 by \44092;
-  substitute \44094 by \44095;
   substitute \44100 by \44101;
   substitute \44104 by \44105;
   substitute \44114 by \44115;
@@ -34569,6 +34713,7 @@ lookup cn2tw useExtension {
   substitute \44901 by \44900;
   substitute \44906 by \44907;
   substitute \44931 by \44932;
+  substitute \44937 by \64782;
   substitute \44944 by \44945;
   substitute \44962 by \44963;
   substitute \44965 by \44966;
@@ -34897,7 +35042,6 @@ lookup cn2tw useExtension {
   substitute \46807 by \46808;
   substitute \46815 by \46816;
   substitute \46818 by \46819;
-  substitute \46825 by \46826;
   substitute \46828 by \46829;
   substitute \46836 by \46837;
   substitute \46839 by \46840;
@@ -35208,6 +35352,7 @@ lookup cn2tw useExtension {
   substitute \61100 by \19626;
   substitute \61110 by \22118;
   substitute \61116 by \22540;
+  substitute \61120 by \64763;
   substitute \61129 by \25414;
   substitute \61131 by \25812;
   substitute \61138 by \26751;
@@ -35250,6 +35395,7 @@ lookup cn2tw useExtension {
   substitute \62124 by \43908;
   substitute \62149 by \44551;
   substitute \62201 by \46607;
+  substitute \62205 by \46702;
   substitute \62238 by \48393;
   substitute \62280 by \855;
   substitute \62281 by \856;
@@ -35259,6 +35405,17 @@ lookup cn2tw useExtension {
   substitute \62291 by \59969;
   substitute \62292 by \59970;
   substitute \62293 by \59974;
+  substitute \64750 by \10296;
+  substitute \64751 by \13630;
+  substitute \64759 by \20968;
+  substitute \64764 by \24694;
+  substitute \64766 by \28499;
+  substitute \64770 by \30034;
+  substitute \64771 by \30787;
+  substitute \64774 by \35126;
+  substitute \64779 by \42735;
+  substitute \64781 by \44095;
+  substitute \64784 by \46826;
 } cn2tw;
 
 lookup latin_special {
