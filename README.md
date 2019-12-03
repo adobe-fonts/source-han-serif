@@ -32,7 +32,7 @@ In this repository, all necessary files are in place for building the OpenType/C
 
 ## Getting Involved
 
-Send suggestions for changes to the Source Han Serif project maintainer, [Dr. Ken Lunde](mailto:lunde@adobe.com?subject=[GitHub]%20Source%20Han%20Serif), for consideration.
+For any suggestions for changes, please [create a new issue](https://github.com/adobe-fonts/source-han-serif/issues) for consideration.
 
 ## Further information
 
