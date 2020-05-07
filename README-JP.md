@@ -32,7 +32,8 @@
 
 ## ご意見・ご提案など
 
-ご意見・ご提案等がございましたら、源ノ明朝のプロジェクト管理者の[ケン・ランディ博士](mailto:lunde@adobe.com?subject=[GitHub]%20Source%20Han%20Serif)までお送りください。検討させていただきます。
+ご意見・ご提案等がございましたら、こちらの[ページ](https://github.com/adobe-fonts/source-han-serif/issues)より、新規ご用件を「New issue」で作成してお知らせください。検討させていただきます。
+
 
 ## さらに詳しい情報
 
