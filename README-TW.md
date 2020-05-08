@@ -32,7 +32,7 @@
 
 ## 如何參與
 
-請將修改建議傳送至負責「思源宋體」專案維護的[小林劍博士](mailto:lunde@adobe.com?subject=[GitHub]%20Source%20Han%20Serif)，以茲參考。
+有任何修改建議，請至issue頁面點選[New issue](https://github.com/adobe-fonts/source-han-serif/issues)以資參考。
 
 ## 詳細資訊
 
