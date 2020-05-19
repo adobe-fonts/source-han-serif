@@ -48,7 +48,7 @@ Each ZIP file contains seven font resources, one for each of the seven weights. 
 
 ## Getting Involved
 
-Send suggestions for changes to the Source Han Serif project maintainer, [Dr. Ken Lunde](mailto:lunde@adobe.com?subject=[GitHub]%20Source%20Han%20Serif), for consideration.
+[Open or respond to an issue](https://github.com/adobe-fonts/source-han-serif/issues/).
 
 ## Further information
 
