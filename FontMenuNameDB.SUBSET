@@ -205,3 +205,55 @@
 	f=Source Han Serif TW
 	s=Heavy
 	l=Source Han Serif TW Heavy
+
+[SourceHanSerifHK-ExtraLight]
+	f=3,1,0xC04,\601D\6E90\5B8B\9AD4 HK
+	s=3,1,0xC04,ExtraLight
+	l=3,1,0xC04,\601D\6E90\5B8B\9AD4 HK ExtraLight
+	f=Source Han Serif HK
+	s=ExtraLight
+	l=Source Han Serif HK ExtraLight
+
+[SourceHanSerifHK-Light]
+	f=3,1,0xC04,\601D\6E90\5B8B\9AD4 HK
+	s=3,1,0xC04,Light
+	l=3,1,0xC04,\601D\6E90\5B8B\9AD4 HK Light
+	f=Source Han Serif HK
+	s=Light
+	l=Source Han Serif HK Light
+
+[SourceHanSerifHK-Regular]
+	f=3,1,0xC04,\601D\6E90\5B8B\9AD4 HK
+	s=3,1,0xC04,Regular
+	f=Source Han Serif HK
+	s=Regular
+
+[SourceHanSerifHK-Medium]
+	f=3,1,0xC04,\601D\6E90\5B8B\9AD4 HK
+	s=3,1,0xC04,Medium
+	l=3,1,0xC04,\601D\6E90\5B8B\9AD4 HK Medium
+	f=Source Han Serif HK
+	s=Medium
+	l=Source Han Serif HK Medium
+
+[SourceHanSerifHK-SemiBold]
+	f=3,1,0xC04,\601D\6E90\5B8B\9AD4 HK
+	s=3,1,0xC04,SemiBold
+	l=3,1,0xC04,\601D\6E90\5B8B\9AD4 HK SemiBold
+	f=Source Han Serif HK
+	s=SemiBold
+	l=Source Han Serif HK SemiBold
+
+[SourceHanSerifHK-Bold]
+	f=3,1,0xC04,\601D\6E90\5B8B\9AD4 HK
+	s=3,1,0xC04,Bold
+	f=Source Han Serif HK
+	s=Bold
+
+[SourceHanSerifHK-Heavy]
+	f=3,1,0xC04,\601D\6E90\5B8B\9AD4 HK
+	s=3,1,0xC04,Heavy
+	l=3,1,0xC04,\601D\6E90\5B8B\9AD4 HK Heavy
+	f=Source Han Serif HK
+	s=Heavy
+	l=Source Han Serif HK Heavy

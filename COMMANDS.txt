@@ -1,53 +1,57 @@
-# Command lines for building Source Han Serif OTFs & OTCs
+# Command lines for building Source Han Serif OTFs & OTCs & Super OTC
 #
-# Version 2017-04-03
-#
-# To subroutinize the 'CFF ' table, which may take several hours or up
-# to a day for the 65,535-glyph fonts, replace the "-nS" command-line
-# option with "-maxs 25000" in the "makeotf" command lines.
+# Version 2021-10-25
 
 ### Command lines for building the region-specific subset OTFs
 ### Executed in {ExtraLight,Light,Regular,Medium,SemiBold,Bold,Heavy}
 
 # Simplified Chinese
 
-makeotf -f cidfont.ps.CN -omitMacNames -ff features.CN -fi cidfontinfo.CN -mf ../FontMenuNameDB.SUBSET -r -nS -cs 25 -ch ../UniSourceHanSerifCN-UTF32-H -ci ../SourceHanSerif_CN_sequences.txt
+makeotf -f cidfont.ps.CN -omitMacNames -ff features.CN -fi cidfontinfo.CN -mf ../FontMenuNameDB.SUBSET -r -nS -cs 25 -ch ../UniSourceHanSerifCN-UTF32-H -ci ../SourceHanSerif_CN_sequences.txt; tx -cff +S cidfont.ps.CN CFF.CN ; sfntedit -a CFF=CFF.CN SourceHanSerifCN-$dir.otf
 
 # Traditional Chinese (TW)
 
-makeotf -f cidfont.ps.TW -omitMacNames -ff features.TW -fi cidfontinfo.TW -mf ../FontMenuNameDB.SUBSET -r -nS -cs 2 -ch ../UniSourceHanSerifTW-UTF32-H -ci ../SourceHanSerif_TW_sequences.txt
+makeotf -f cidfont.ps.TW -omitMacNames -ff features.TW -fi cidfontinfo.TW -mf ../FontMenuNameDB.SUBSET -r -nS -cs 2 -ch ../UniSourceHanSerifTW-UTF32-H -ci ../SourceHanSerif_TW_sequences.txt; tx -cff +S cidfont.ps.TW CFF.TW ; sfntedit -a CFF=CFF.TW SourceHanSerifTW-$dir.otf
+
+# Traditional Chinese (HK)
+
+makeotf -f cidfont.ps.HK -omitMacNames -ff features.HK -fi cidfontinfo.HK -mf ../FontMenuNameDB.SUBSET -r -nS -cs 2 -ch ../UniSourceHanSerifHK-UTF32-H -ci ../SourceHanSerif_HK_sequences.txt; tx -cff +S cidfont.ps.HK CFF.HK ; sfntedit -a CFF=CFF.HK SourceHanSerifHK-$dir.otf
 
 # Japanese
 
-makeotf -f cidfont.ps.JP -omitMacNames -ff features.JP -fi cidfontinfo.JP -mf ../FontMenuNameDB.SUBSET -r -nS -cs 1 -ch ../UniSourceHanSerifJP-UTF32-H -ci ../SourceHanSerif_JP_sequences.txt
+makeotf -f cidfont.ps.JP -omitMacNames -ff features.JP -fi cidfontinfo.JP -mf ../FontMenuNameDB.SUBSET -r -nS -cs 1 -ch ../UniSourceHanSerifJP-UTF32-H -ci ../SourceHanSerif_JP_sequences.txt; tx -cff +S cidfont.ps.JP CFF.JP ; sfntedit -a CFF=CFF.JP SourceHanSerifJP-$dir.otf
 
 # Korean
 
-makeotf -f cidfont.ps.KR -omitMacNames -ff features.KR -fi cidfontinfo.KR -mf ../FontMenuNameDB.SUBSET -r -nS -cs 3 -ch ../UniSourceHanSerifKR-UTF32-H -ci ../SourceHanSerif_KR_sequences.txt
+makeotf -f cidfont.ps.KR -omitMacNames -ff features.KR -fi cidfontinfo.KR -mf ../FontMenuNameDB.SUBSET -r -nS -cs 3 -ch ../UniSourceHanSerifKR-UTF32-H -ci ../SourceHanSerif_KR_sequences.txt; tx -cff +S cidfont.ps.KR CFF.KR ; sfntedit -a CFF=CFF.KR SourceHanSerifKR-$dir.otf
 
 ### Command lines for building the language-specific OTFs
 ### Executed in {ExtraLight,Light,Regular,Medium,SemiBold,Bold,Heavy}/OTC
 
 # Simplified Chinese
 
-makeotf -f cidfont.ps.OTC.SC -omitMacNames -ff features.OTC.SC -fi cidfontinfo.OTC.SC -mf ../../FontMenuNameDB -r -nS -cs 25 -ch ../../UniSourceHanSerifCN-UTF32-H -ci ../../SourceHanSerif_CN_sequences.txt
+makeotf -f cidfont.ps.OTC.SC -omitMacNames -ff features.OTC.SC -fi cidfontinfo.OTC.SC -mf ../../FontMenuNameDB -r -nS -cs 25 -ch ../../UniSourceHanSerifCN-UTF32-H -ci ../../SourceHanSerif_CN_sequences.txt ; tx -cff +S cidfont.ps.OTC.SC CFF.OTC.SC ; sfntedit -a CFF=CFF.OTC.SC SourceHanSerifSC-$dir.otf
 
 # Traditional Chinese (TW)
 
-makeotf -f cidfont.ps.OTC.TC -omitMacNames -ff features.OTC.TC -fi cidfontinfo.OTC.TC -mf ../../FontMenuNameDB -r -nS -cs 2 -ch ../../UniSourceHanSerifTW-UTF32-H -ci ../../SourceHanSerif_TW_sequences.txt
+makeotf -f cidfont.ps.OTC.TC -omitMacNames -ff features.OTC.TC -fi cidfontinfo.OTC.TC -mf ../../FontMenuNameDB -r -nS -cs 2 -ch ../../UniSourceHanSerifTW-UTF32-H -ci ../../SourceHanSerif_TW_sequences.txt ; tx -cff +S cidfont.ps.OTC.TC CFF.OTC.TC ; sfntedit -a CFF=CFF.OTC.TC SourceHanSerifTC-$dir.otf
+
+# Traditional Chinese (HK)
+
+makeotf -f cidfont.ps.OTC.HC -omitMacNames -ff features.OTC.HC -fi cidfontinfo.OTC.HC -mf ../../FontMenuNameDB -r -nS -cs 2 -ch ../../UniSourceHanSerifHK-UTF32-H -ci ../../SourceHanSerif_HK_sequences.txt ; tx -cff +S cidfont.ps.OTC.HC CFF.OTC.HC ; sfntedit -a CFF=CFF.OTC.HC SourceHanSerifHC-$dir.otf
 
 # Japanese
 
-makeotf -f cidfont.ps.OTC.J -omitMacNames -ff features.OTC.J -fi cidfontinfo.OTC.J -mf ../../FontMenuNameDB -r -nS -cs 1 -ch ../../UniSourceHanSerifJP-UTF32-H -ci ../../SourceHanSerif_JP_sequences.txt
+makeotf -f cidfont.ps.OTC.J -omitMacNames -ff features.OTC.J -fi cidfontinfo.OTC.J -mf ../../FontMenuNameDB -r -nS -cs 1 -ch ../../UniSourceHanSerifJP-UTF32-H -ci ../../SourceHanSerif_JP_sequences.txt ; tx -cff +S cidfont.ps.OTC.J CFF.OTC.J ; sfntedit -a CFF=CFF.OTC.J SourceHanSerif-$dir.otf
 
 # Korean
 
-makeotf -f cidfont.ps.OTC.K -omitMacNames -ff features.OTC.K -fi cidfontinfo.OTC.K -mf ../../FontMenuNameDB -r -nS -cs 3 -ch ../../UniSourceHanSerifKR-UTF32-H -ci ../../SourceHanSerif_KR_sequences.txt
+makeotf -f cidfont.ps.OTC.K -omitMacNames -ff features.OTC.K -fi cidfontinfo.OTC.K -mf ../../FontMenuNameDB -r -nS -cs 3 -ch ../../UniSourceHanSerifKR-UTF32-H -ci ../../SourceHanSerif_KR_sequences.txt ; tx -cff +S cidfont.ps.OTC.K CFF.OTC.K ; sfntedit -a CFF=CFF.OTC.K SourceHanSerifK-$dir.otf
 
 ### Command line for building the OTCs (replace $dir with the face name)
 ### Executed in {ExtraLight,Light,Regular,Medium,SemiBold,Bold,Heavy}/OTC
 
-otf2otc -t 'CFF '=0 -o SourceHanSerif-$dir.ttc SourceHanSerif-$dir.otf SourceHanSerifK-$dir.otf SourceHanSerifSC-$dir.otf SourceHanSerifTC-$dir.otf
+otf2otc -t 'CFF '=0 -o SourceHanSerif-$dir.ttc SourceHanSerif-$dir.otf SourceHanSerifK-$dir.otf SourceHanSerifSC-$dir.otf SourceHanSerifTC-$dir.otf SourceHanSerifHC-$dir.otf
 
 ### Command lines for building the Super OTC
 
@@ -61,6 +65,7 @@ cp SourceHanSerif-$dir.otf SourceHanSerif-$dir.otf.tmp
 cp SourceHanSerifK-$dir.otf SourceHanSerifK-$dir.otf.tmp
 cp SourceHanSerifSC-$dir.otf SourceHanSerifSC-$dir.otf.tmp
 cp SourceHanSerifTC-$dir.otf SourceHanSerifTC-$dir.otf.tmp
+cp SourceHanSerifHC-$dir.otf SourceHanSerifHC-$dir.otf.tmp
 sfntedit -a CFF=CFF.J SourceHanSerifK-$dir.otf.tmp
 sfntedit -a CFF=CFF.J SourceHanSerifSC-$dir.otf.tmp
 sfntedit -a CFF=CFF.J SourceHanSerifTC-$dir.otf.tmp
@@ -68,10 +73,14 @@ sfntedit -d DSIG SourceHanSerif-$dir.otf.tmp
 sfntedit -d DSIG SourceHanSerifK-$dir.otf.tmp
 sfntedit -d DSIG SourceHanSerifSC-$dir.otf.tmp
 sfntedit -d DSIG SourceHanSerifTC-$dir.otf.tmp
+sfntedit -d DSIG SourceHanSerifHC-$dir.otf.tmp
 
 # Command line for building the Super OTC
 # Executed in the root directory
 
-otf2otc -o SourceHanSerif.ttc ExtraLight/OTC/SourceHanSerif-ExtraLight.otf.tmp ExtraLight/OTC/SourceHanSerifK-ExtraLight.otf.tmp ExtraLight/OTC/SourceHanSerifSC-ExtraLight.otf.tmp ExtraLight/OTC/SourceHanSerifTC-ExtraLight.otf.tmp Light/OTC/SourceHanSerif-Light.otf.tmp Light/OTC/SourceHanSerifK-Light.otf.tmp Light/OTC/SourceHanSerifSC-Light.otf.tmp Light/OTC/SourceHanSerifTC-Light.otf.tmp Regular/OTC/SourceHanSerif-Regular.otf.tmp Regular/OTC/SourceHanSerifK-Regular.otf.tmp Regular/OTC/SourceHanSerifSC-Regular.otf.tmp Regular/OTC/SourceHanSerifTC-Regular.otf.tmp Medium/OTC/SourceHanSerif-Medium.otf.tmp Medium/OTC/SourceHanSerifK-Medium.otf.tmp Medium/OTC/SourceHanSerifSC-Medium.otf.tmp Medium/OTC/SourceHanSerifTC-Medium.otf.tmp SemiBold/OTC/SourceHanSerif-SemiBold.otf.tmp SemiBold/OTC/SourceHanSerifK-SemiBold.otf.tmp SemiBold/OTC/SourceHanSerifSC-SemiBold.otf.tmp SemiBold/OTC/SourceHanSerifTC-SemiBold.otf.tmp Bold/OTC/SourceHanSerif-Bold.otf.tmp Bold/OTC/SourceHanSerifK-Bold.otf.tmp Bold/OTC/SourceHanSerifSC-Bold.otf.tmp Bold/OTC/SourceHanSerifTC-Bold.otf.tmp Heavy/OTC/SourceHanSerif-Heavy.otf.tmp Heavy/OTC/SourceHanSerifK-Heavy.otf.tmp Heavy/OTC/SourceHanSerifSC-Heavy.otf.tmp Heavy/OTC/SourceHanSerifTC-Heavy.otf.tmp
+otf2otc -o SourceHanSerif.ttc ExtraLight/OTC/SourceHanSerif-ExtraLight.otf.tmp ExtraLight/OTC/SourceHanSerifK-ExtraLight.otf.tmp ExtraLight/OTC/SourceHanSerifSC-ExtraLight.otf.tmp ExtraLight/OTC/SourceHanSerifTC-ExtraLight.otf.tmp ExtraLight/OTC/SourceHanSerifHC-ExtraLight.otf.tmp Light/OTC/SourceHanSerif-Light.otf.tmp Light/OTC/SourceHanSerifK-Light.otf.tmp Light/OTC/SourceHanSerifSC-Light.otf.tmp Light/OTC/SourceHanSerifTC-Light.otf.tmp Light/OTC/SourceHanSerifHC-Light.otf.tmp Regular/OTC/SourceHanSerif-Regular.otf.tmp Regular/OTC/SourceHanSerifK-Regular.otf.tmp Regular/OTC/SourceHanSerifSC-Regular.otf.tmp Regular/OTC/SourceHanSerifTC-Regular.otf.tmp Regular/OTC/SourceHanSerifHC-Regular.otf.tmp Medium/OTC/SourceHanSerif-Medium.otf.tmp Medium/OTC/SourceHanSerifK-Medium.otf.tmp Medium/OTC/SourceHanSerifSC-Medium.otf.tmp Medium/OTC/SourceHanSerifTC-Medium.otf.tmp Medium/OTC/SourceHanSerifHC-Medium.otf.tmp SemiBold/OTC/SourceHanSerif-SemiBold.otf.tmp SemiBold/OTC/SourceHanSerifK-SemiBold.otf.tmp SemiBold/OTC/SourceHanSerifSC-SemiBold.otf.tmp SemiBold/OTC/SourceHanSerifTC-SemiBold.otf.tmp SemiBold/OTC/SourceHanSerifHC-SemiBold.otf.tmp Bold/OTC/SourceHanSerif-Bold.otf.tmp Bold/OTC/SourceHanSerifK-Bold.otf.tmp Bold/OTC/SourceHanSerifSC-Bold.otf.tmp Bold/OTC/SourceHanSerifTC-Bold.otf.tmp Bold/OTC/SourceHanSerifHC-Bold.otf.tmp Heavy/OTC/SourceHanSerif-Heavy.otf.tmp Heavy/OTC/SourceHanSerifK-Heavy.otf.tmp Heavy/OTC/SourceHanSerifSC-Heavy.otf.tmp Heavy/OTC/SourceHanSerifTC-Heavy.otf.tmp Heavy/OTC/SourceHanSerifHC-Heavy.otf.tmp
+
+# Variable OTFs can currently be built using the scripts in the build folder: build-source-otfs.sh and buildVFs.sh
+# Commands for the full Variable Font build process, including variable TTFs, require a future release of the AFDKO. For any questions about variable font production please open an issue at https://github.com/adobe-fonts/source-han-serif/issues.
 
 # EOF

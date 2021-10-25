@@ -1,0 +1,59 @@
+[SourceHanSerifVF-ExtraLight]
+	f=3,1,0x411,\6E90\30CE\660E\671D VF
+	s=3,1,0x411,ExtraLight
+	f=Source Han Serif VF
+	s=ExtraLight
+
+[SourceHanSerifVF-Heavy]
+	f=3,1,0x411,\6E90\30CE\660E\671D VF
+	s=3,1,0x411,Heavy
+	f=Source Han Serif VF
+	s=Heavy
+
+[SourceHanSerifKVF-ExtraLight]
+	f=3,1,0x412,\BCF8\BA85\C870 VF
+	s=3,1,0x412,ExtraLight
+	f=Source Han Serif K VF
+	s=ExtraLight
+
+[SourceHanSerifKVF-Heavy]
+	f=3,1,0x412,\BCF8\BA85\C870 VF
+	s=3,1,0x412,Heavy
+	f=Source Han Serif K VF
+	s=Heavy
+
+[SourceHanSerifSCVF-ExtraLight]
+	f=3,1,0x804,\601D\6E90\5B8B\4F53 VF
+	s=3,1,0x804,ExtraLight
+	f=Source Han Serif SC VF
+	s=ExtraLight
+
+[SourceHanSerifSCVF-Heavy]
+	f=3,1,0x804,\601D\6E90\5B8B\4F53 VF
+	s=3,1,0x804,Heavy
+	f=Source Han Serif SC VF
+	s=Heavy
+
+[SourceHanSerifTCVF-ExtraLight]
+	f=3,1,0x404,\601D\6E90\5B8B\9AD4 VF
+	s=3,1,0x404,ExtraLight
+	f=Source Han Serif TC VF
+	s=ExtraLight
+
+[SourceHanSerifTCVF-Heavy]
+	f=3,1,0x404,\601D\6E90\5B8B\9AD4 VF
+	s=3,1,0x404,Heavy
+	f=Source Han Serif TC VF
+	s=Heavy
+
+[SourceHanSerifHCVF-ExtraLight]
+	f=3,1,0xC04,\601D\6E90\5B8B\9AD4 \9999\6E2F VF
+	s=3,1,0xC04,ExtraLight
+	f=Source Han Serif HC VF
+	s=ExtraLight
+
+[SourceHanSerifHCVF-Heavy]
+	f=3,1,0xC04,\601D\6E90\5B8B\9AD4 \9999\6E2F VF
+	s=3,1,0xC04,Heavy
+	f=Source Han Serif HC VF
+	s=Heavy
