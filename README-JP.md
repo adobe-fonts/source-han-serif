@@ -1,4 +1,4 @@
-[English](https://github.com/adobe-fonts/source-han-serif/) [简体中文](README-CN.md) [繁體中文](README-TW.md) [日本語](README-JP.md) [한국어](README-KR.md)
+[English](https://github.com/adobe-fonts/source-han-serif#source-han-serif) [简体中文](README-CN.md#思源宋体) [繁體中文](README-TW.md#思源宋體) [日本語](README-JP.md#源ノ明朝げんのみんちょう) [한국어](README-KR.md#본명조)
 
 # 源ノ明朝（げんのみんちょう）
 
@@ -8,11 +8,11 @@
 
 各フォント構成に対応した個々のフォントリソースまたは ZIP ファイルをダウンロードできます：
 
-* [最終リリース](https://github.com/adobe-fonts/source-han-serif/tree/release)
+* [最終リリース](https://github.com/adobe-fonts/source-han-serif/tree/release#downloading-source-han-serif)
 
 どのフォントをダウンロードするかを決定するには、[公式フォントの readme ファイル](https://github.com/adobe-fonts/source-han-serif/raw/release/SourceHanSerifReadMe.pdf)の「Configurations」（各種のフォント構成）セクションを参照してください。GitHub に慣れていない人は、[公式 Source Han ダウンロードガイド](https://github.com/adobe-fonts/source-han-serif/raw/release/download-guide-source-han.pdf)を参照することをお勧めします。英語、日本語、韓国語、簡体字中国語および繁体字中国語で提供されています。
 
-また、利用可能なすべてのフォント構成を含む [releases](../../releases) 全体を二つの ZIP ファイルでダウンロードすることもできます。
+また、利用可能なすべてのフォント構成を含む [releases](../../releases) 全体を三つの ZIP ファイルでダウンロードすることもできます。
 
 ## ソースからフォントをビルドする
 

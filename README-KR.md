@@ -1,4 +1,4 @@
-[English](https://github.com/adobe-fonts/source-han-serif/) [简体中文](README-CN.md) [繁體中文](README-TW.md) [日本語](README-JP.md) [한국어](README-KR.md)
+[English](https://github.com/adobe-fonts/source-han-serif#source-han-serif) [简体中文](README-CN.md#思源宋体) [繁體中文](README-TW.md#思源宋體) [日本語](README-JP.md#源ノ明朝げんのみんちょう) [한국어](README-KR.md#본명조)
 
 # 본명조
 
@@ -8,11 +8,11 @@
 
 개별 글꼴 리소스 또는 여러가지 형태로 배포를 하기 위한 ZIP 파일을 다운로드 할 수 있습니다:
 
-* [최신 릴리스](https://github.com/adobe-fonts/source-han-serif/tree/release)
+* [최신 릴리스](https://github.com/adobe-fonts/source-han-serif/tree/release#downloading-source-han-serif)
 
 어떤 글꼴을 다운로드 해야 할지에 관해서는 설정(Configuration) 항목의 [공식 글꼴 readme 파일](https://github.com/adobe-fonts/source-han-serif/raw/release/SourceHanSerifReadMe.pdf)을 참고하시기 바랍니다. GitHub 사용에 익숙하지 않은 경우에는 한국어는 물론, 영어, 일본어, 중국어 간체 및 중국어 번체로 제공되는 다음의 내용을 확인 하시기를 권장합니다. [공식 Source Han 다운로드 가이드](https://github.com/adobe-fonts/source-han-serif/raw/release/download-guide-source-han.pdf).
 
-또한 전체 [릴리스](../../releases)를 다운로드 할 수 있으며 이는 모든 가능한 설정들을 포함한 두개의 ZIP 파일입니다. 
+또한 전체 [릴리스](../../releases)를 다운로드 할 수 있으며 이는 모든 가능한 설정들을 포함한 세개의 ZIP 파일입니다. 
 
 ## 소스로부터 글꼴 만들기
 

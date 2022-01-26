@@ -2,7 +2,7 @@ FontName                   (SourceHanSerifSC-ExtraLight)
 FullName                   (Source Han Serif Simplified Chinese ExtraLight)
 FamilyName                 (Source Han Serif Simplified Chinese)
 Weight                     (ExtraLight)
-version                    (2.000)
+version                    (2.001)
 Registry                   (Adobe)
 Ordering                   (Identity)
 Supplement                 0
@@ -10,7 +10,7 @@ Layout                     (AI0-SourceHanSerif)
 FSType                     0
 isFixedPitch               false
 UnderlinePosition          -150
-AdobeCopyright             (Copyright 2017-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'.)
+AdobeCopyright             (Copyright 2017-2022 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'.)
 Trademark                  (Source is a trademark of Adobe in the United States and/or other countries.)
 Serif                      true
 IsBoldStyle                false

@@ -1,4 +1,4 @@
-[English](https://github.com/adobe-fonts/source-han-serif/) [简体中文](README-CN.md) [繁體中文](README-TW.md) [日本語](README-JP.md) [한국어](README-KR.md)
+[English](https://github.com/adobe-fonts/source-han-serif#source-han-serif) [简体中文](README-CN.md#思源宋体) [繁體中文](README-TW.md#思源宋體) [日本語](README-JP.md#源ノ明朝げんのみんちょう) [한국어](README-KR.md#본명조)
 
 # 思源宋体
 
@@ -8,11 +8,11 @@
 
 本项目提供了为多种部署方式而设定的独立字体资源以及 ZIP 文件供下载：
 
-* [最新发布](https://github.com/adobe-fonts/source-han-serif/tree/release)
+* [最新发布](https://github.com/adobe-fonts/source-han-serif/tree/release#downloading-source-han-serif)
 
 参考[《官方字体 readme 文件》](https://github.com/adobe-fonts/source-han-serif/raw/release/SourceHanSerifReadMe.pdf)的 Configurations（设置）部分，可以帮助您决定下载哪一套字体。推荐不熟悉 GitHub 的人士参照以英文、日文、韩文、简体中文、繁体中文提供的[《思源字体官方下载指南》](https://github.com/adobe-fonts/source-han-serif/raw/release/download-guide-source-han.pdf)。
 
-您也可以两个 ZIP 文件形式下载整个 [releases](../../releases)，内含所有设置。
+您也可以三个 ZIP 文件形式下载整个 [releases](../../releases)，内含所有设置。
 
 ## 从源文件创建字体
 
