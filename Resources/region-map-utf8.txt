@@ -832,7 +832,7 @@ U+513D	CN	CN#	儽	CN#	CN#
 U+513E	CN	CN#	儾	CN#	CN#
 U+513F	CN	CN#	儿	CN#	CN#
 U+5140	CN	CN#	兀	CN#	CN#
-U+5141	允	JP#	JP	允	TW#
+U+5141	允	JP#	TW	允	TW#
 U+5142	兂	JP#	兂	CN#	CN#
 U+5143	元	JP#	JP	JP#	JP#
 U+5144	兄	JP#	JP	JP#	JP#
@@ -1369,7 +1369,7 @@ U+5356	CN	CN#	卖	CN#	CN#
 U+5357	CN	CN#	南	CN#	CN#
 U+5358	単	JP#	JP	JP#	JP#
 U+5359	卙	JP#	卙	CN#	CN#
-U+535A	博	博 (uni535AuE0101-JP)	JP	博	TW#
+U+535A	博	博 (uni535AuE0101-JP)	博 (uni535AuE0101-JP)	博	TW#
 U+535B	卛	JP#	卛	CN#	CN#
 U+535C	CN	CN#	卜	CN#	CN#
 U+535D	卝	JP#	JP	JP#	JP
@@ -3767,7 +3767,7 @@ U+5CB4	岴	JP#	岴	CN#	CN#
 U+5CB5	岵	JP#	岵	岵	TW#
 U+5CB6	岶	JP#	岶	岶	TW#
 U+5CB7	岷	JP#	岷	岷	TW#
-U+5CB8	CN	CN#	岸	CN#	CN#
+U+5CB8	岸	JP#	岸	CN#	CN#
 U+5CB9	CN	CN#	岹	CN#	CN#
 U+5CBA	岺	JP#	岺	HK#	岺
 U+5CBB	岻	JP#	岻	JP#	JP#
@@ -6391,7 +6391,7 @@ U+66F4	更	更 (uni66F4uE0101-JP)	JP	JP#	JP#
 U+66F5	曵	JP#	曵 (uni66F5uE0101-JP)	曵 (uni66F5uE0101-JP)	曵 (uni66F5uE0101-JP)
 U+66F6	曶	JP#	JP	JP#	曶
 U+66F7	曷	JP#	曷	曷	曷
-U+66F8	書	JP#	JP	JP#	書
+U+66F8	書	JP#	JP	JP#	JP#
 U+66F9	曹	JP#	JP	JP#	曹
 U+66FA	曺	JP#	JP	JP#	JP#
 U+66FB	曻	JP#	曻	CN#	CN#
@@ -9272,7 +9272,7 @@ U+7235	爵	爵 (uni7235uE0102-JP)	爵	CN#	CN#
 U+7236	父	父 (uni7236uE0101-JP)	JP	JP#	JP#
 U+7237	CN	CN#	爷	CN#	CN#
 U+7238	爸	JP#	爸	CN#	CN#
-U+7239	爹	JP#	爹	JP#	JP#
+U+7239	爹	JP#	爹	CN#	CN#
 U+723A	爺	爺 (uni723A-JP90-JP)	爺	JP#	JP#
 U+723B	爻	JP#	爻	CN#	CN#
 U+723C	爼	JP#	JP	JP#	JP#
@@ -10028,7 +10028,7 @@ U+7529	甩	CN#	甩	CN#	CN#
 U+752A	甪	JP#	JP	甪	JP#
 U+752B	甫	JP#	JP	JP#	JP#
 U+752C	甬	JP#	JP	JP#	JP#
-U+752D	CN	CN#	甭	CN#	甭
+U+752D	HK	HK#	甭	CN#	甭
 U+752E	CN	CN#	甮	CN#	甮
 U+752F	甯	JP#	甯	甯	CN#
 U+7530	田	JP#	JP	JP#	JP#
@@ -16827,7 +16827,7 @@ U+8FB8	辸	JP#	辸	HK#	辸
 U+8FB9	CN	CN#	边	HK#	边
 U+8FBA	辺	JP#	辺	HK#	辺
 U+8FBB	辻	JP#	辻	HK#	辻
-U+8FBC	込	JP#	込	HK#	込
+U+8FBC	込	込 (uni8FBCuE0101-JP)	込	HK#	込
 U+8FBD	CN	CN#	辽	CN#	CN#
 U+8FBE	达	JP#	达	HK#	达
 U+8FBF	辿	JP#	辿	辿	TW#
@@ -20970,6 +20970,27 @@ U+9FE7	CN	CN#	鿧	CN#	CN#
 U+9FE8	CN	CN#	鿨	HK#	鿨
 U+9FE9	CN	CN#	鿩	CN#	CN#
 U+9FEA	KR	鿪	KR	KR#	KR#
+U+9FEB	CN	CN#	鿫	鿫	TW#
+U+9FEC	CN	CN#	鿬	CN#	CN#
+U+9FED	CN	CN#	鿭	CN#	CN#
+U+9FEE	鿮	JP#	JP	JP#	JP#
+U+9FEF	鿯	JP#	JP	JP#	JP#
+U+9FF0	CN	CN#	鿰	CN#	CN#
+U+9FF1	CN	CN#	鿱	CN#	CN#
+U+9FF2	CN	CN#	鿲	CN#	CN#
+U+9FF3	CN	CN#	鿳	CN#	CN#
+U+9FF4	CN	CN#	鿴	CN#	CN#
+U+9FF5	CN	CN#	鿵	CN#	CN#
+U+9FF6	CN	CN#	鿶	CN#	CN#
+U+9FF7	CN	CN#	鿷	CN#	CN#
+U+9FF8	CN	CN#	鿸	CN#	CN#
+U+9FF9	CN	CN#	鿹	CN#	CN#
+U+9FFA	CN	CN#	鿺	CN#	CN#
+U+9FFB	CN	CN#	鿻	CN#	CN#
+U+9FFC	CN	CN#	鿼	CN#	CN#
+U+9FFD	CN	CN#	鿽	CN#	CN#
+U+9FFE	CN	CN#	鿾	CN#	CN#
+U+9FFF	CN	CN#	鿿	CN#	CN#
 # ExtA	JP	KR	CN	TW	HK
 U+3400	㐀	JP#	JP	JP#	JP#
 U+3401	CN	CN#	㐁	CN#	CN#
@@ -27553,4 +27574,14 @@ U+4DB2	CN	CN#	䶲	CN#	CN#
 U+4DB3	CN	CN#	䶳	CN#	CN#
 U+4DB4	CN	CN#	䶴	CN#	CN#
 U+4DB5	CN	CN#	䶵	CN#	CN#
+U+4DB6	CN	CN#	䶶	CN#	CN#
+U+4DB7	CN	CN#	䶷	CN#	CN#
+U+4DB8	CN	CN#	䶸	CN#	CN#
+U+4DB9	HK	HK#	HK	HK#	䶹
+U+4DBA	CN	CN#	䶺	CN#	CN#
+U+4DBB	CN	CN#	䶻	CN#	CN#
+U+4DBC	CN	CN#	䶼	CN#	CN#
+U+4DBD	CN	CN#	䶽	CN#	CN#
+U+4DBE	CN	CN#	䶾	CN#	CN#
+U+4DBF	CN	CN#	䶿	CN#	CN#
 # EOF
