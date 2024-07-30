@@ -110,7 +110,7 @@ Select this deployment format if your system support variable fonts and you need
 
 Select this deployment format if you want all five languages and all seven weights in a single and easy-to-manage font resource that includes 35 fonts. Changing languages is accomplished by either selecting the font of the desired language or by language-tagging the text. A limited number of apps support language tagging and the corresponding OpenType 'locl' (*Localized Forms*) GSUB feature, such as [Adobe InDesign](https://www.adobe.com/products/indesign.html) and modern browsers.
 
-[Super OTC](https://github.com/adobe-fonts/source-han-serif/releases/download/2.002R/01_SourceHanSerif.ttc.zip)
+[Super OTC](https://github.com/adobe-fonts/source-han-serif/releases/download/2.003R/01_SourceHanSerif.ttc.zip)
 
 **Special Note**: This deployment format requires macOS (OS X) Version 10.8 (aka *Mountain Lion*) or later, iOS 7 or later, Windows 10 Version 1703 (aka *Creators Update*) or later, a flavor of Linux that uses *fontconfig* and FreeType Version 2.5.0.1 or greater, or Adobe CS6 apps or later.
 
@@ -118,7 +118,7 @@ Select this deployment format if you want all five languages and all seven weigh
 
 Select this deployment format if you want all five languages and particular weights, or if your environment does not support the Super OTC. Changing languages is accomplished the same way as the Super OTC. If you need particular weights, download individual font resources from the [OTC](https://github.com/adobe-fonts/source-han-serif/raw/release/OTC) folder, otherwise click on the following link:
 
-[Static OTCs](https://github.com/adobe-fonts/source-han-serif/releases/download/2.002R/03_SourceHanSerifOTC.zip)
+[Static OTCs](https://github.com/adobe-fonts/source-han-serif/releases/download/2.003R/03_SourceHanSerifOTC.zip)
 
 **Special Note**: This deployment format requires macOS (OS X) Version 10.8 (aka *Mountain Lion*) or later, iOS 7 or later, Windows 10 Version 1607 (aka *Anniversary Update*) or later, a flavor of Linux that uses *fontconfig* and FreeType Version 2.5.0.1 or greater, or Adobe CS6 apps or later.
 
@@ -126,15 +126,15 @@ Select this deployment format if you want all five languages and particular weig
 
 Select this deployment format if you prefer to use only one language, but also want full character coverage or the ability to language-tag text to use glyphs that are appropriate for the other languages (like the Super OTC and OTCs, this requires an app that supports language tagging and the OpenType 'locl' GSUB feature). If you need only specific weights, download individual font resources from the [OTF](https://github.com/adobe-fonts/source-han-serif/raw/release/OTF) folder, otherwise click on the appropriate links below:
 
-[Simplified Chinese (简体中文)](https://github.com/adobe-fonts/source-han-serif/releases/download/2.002R/09_SourceHanSerifSC.zip)
+[Simplified Chinese (简体中文)](https://github.com/adobe-fonts/source-han-serif/releases/download/2.003R/09_SourceHanSerifSC.zip)
 
-[Traditional Chinese — Taiwan (繁體中文—臺灣)](https://github.com/adobe-fonts/source-han-serif/releases/download/2.002R/10_SourceHanSerifTC.zip)
+[Traditional Chinese — Taiwan (繁體中文—臺灣)](https://github.com/adobe-fonts/source-han-serif/releases/download/2.003R/10_SourceHanSerifTC.zip)
 
-[Traditional Chinese — Hong Kong (繁體中文—香港)](https://github.com/adobe-fonts/source-han-serif/releases/download/2.002R/11_SourceHanSerifHC.zip)
+[Traditional Chinese — Hong Kong (繁體中文—香港)](https://github.com/adobe-fonts/source-han-serif/releases/download/2.003R/11_SourceHanSerifHC.zip)
 
-[Japanese (日本語)](https://github.com/adobe-fonts/source-han-serif/releases/download/2.002R/07_SourceHanSerifJ.zip)
+[Japanese (日本語)](https://github.com/adobe-fonts/source-han-serif/releases/download/2.003R/07_SourceHanSerifJ.zip)
 
-[Korean (한국어)](https://github.com/adobe-fonts/source-han-serif/releases/download/2.002R/08_SourceHanSerifK.zip)
+[Korean (한국어)](https://github.com/adobe-fonts/source-han-serif/releases/download/2.003R/08_SourceHanSerifK.zip)
 
 ### Region-specific Subset OTFs
 
@@ -142,15 +142,15 @@ Select this deployment format if you need only the glyphs for characters for a p
 
 Each ZIP file contains seven font resources, one for each of the seven weights. If you need specific weights, download individual font resources from the [SubsetOTF](https://github.com/adobe-fonts/source-han-serif/raw/release/SubsetOTF) folder, otherwise click on the appropriate links below:
 
-[China (中国)](https://github.com/adobe-fonts/source-han-serif/releases/download/2.002R/14_SourceHanSerifCN.zip)
+[China (中国)](https://github.com/adobe-fonts/source-han-serif/releases/download/2.003R/14_SourceHanSerifCN.zip)
 
-[Taiwan (臺灣)](https://github.com/adobe-fonts/source-han-serif/releases/download/2.002R/15_SourceHanSerifTW.zip)
+[Taiwan (臺灣)](https://github.com/adobe-fonts/source-han-serif/releases/download/2.003R/15_SourceHanSerifTW.zip)
 
-[Hong Kong (香港)](https://github.com/adobe-fonts/source-han-serif/releases/download/2.002R/16_SourceHanSerifHK.zip)
+[Hong Kong (香港)](https://github.com/adobe-fonts/source-han-serif/releases/download/2.003R/16_SourceHanSerifHK.zip)
 
-[Japan (日本)](https://github.com/adobe-fonts/source-han-serif/releases/download/2.002R/12_SourceHanSerifJP.zip)
+[Japan (日本)](https://github.com/adobe-fonts/source-han-serif/releases/download/2.003R/12_SourceHanSerifJP.zip)
 
-[Korea (한국)](https://github.com/adobe-fonts/source-han-serif/releases/download/2.002R/13_SourceHanSerifKR.zip)
+[Korea (한국)](https://github.com/adobe-fonts/source-han-serif/releases/download/2.003R/13_SourceHanSerifKR.zip)
 
 ## Getting Involved
 
