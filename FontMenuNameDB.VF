@@ -57,3 +57,15 @@
 	s=3,1,0xC04,Heavy
 	f=Source Han Serif HC VF
 	s=Heavy
+
+[SourceHanSerifMOVF-ExtraLight]
+	f=3,1,0xC04,\601D\6E90\5B8B\9AD4 \6FB3\9580 VF
+	s=3,1,0xC04,ExtraLight
+	f=Source Han Serif MO VF
+	s=ExtraLight
+
+[SourceHanSerifMOVF-Heavy]
+	f=3,1,0xC04,\601D\6E90\5B8B\9AD4 \6FB3\9580 VF
+	s=3,1,0xC04,Heavy
+	f=Source Han Serif MO VF
+	s=Heavy

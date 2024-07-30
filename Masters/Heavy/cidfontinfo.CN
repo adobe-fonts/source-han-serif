@@ -2,7 +2,7 @@ FontName                   (SourceHanSerifCN-Heavy)
 FullName                   (Source Han Serif CN Heavy)
 FamilyName                 (Source Han Serif CN)
 Weight                     (Heavy)
-version                    (2.002)
+version                    (2.003)
 Registry                   (Adobe)
 Ordering                   (Identity)
 Supplement                 0
@@ -11,7 +11,7 @@ Subset                     (AI0-SourceHanSerif.CN)
 FSType                     0
 isFixedPitch               false
 UnderlinePosition          -150
-AdobeCopyright             (Copyright 2017-2023 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'.)
+AdobeCopyright             (Copyright 2017-2024 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'.)
 Trademark                  (Source is a trademark of Adobe in the United States and/or other countries.)
 Serif                      true
 IsBoldStyle                false
