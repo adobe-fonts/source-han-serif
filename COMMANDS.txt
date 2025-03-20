@@ -30,23 +30,23 @@ makeotf -f cidfont.ps.KR -omitMacNames -ff features.KR -fi cidfontinfo.KR -mf ..
 
 # Simplified Chinese
 
-makeotf -f cidfont.ps.OTC.SC -omitMacNames -ff features.OTC.SC -fi cidfontinfo.OTC.SC -mf ../../FontMenuNameDB -r -nS -cs 25 -ch ../../UniSourceHanSerifCN-UTF32-H -ci ../../SourceHanSerif_CN_sequences.txt ; tx -cff +S cidfont.ps.OTC.SC CFF.OTC.SC ; sfntedit -a CFF=CFF.OTC.SC SourceHanSerifSC-$dir.otf
+makeotf -f cidfont.ps.OTC.SC -omitMacNames -ff features.OTC.SC -fi cidfontinfo.OTC.SC -mf ../../../FontMenuNameDB -r -nS -cs 25 -ch ../../../UniSourceHanSerifCN-UTF32-H -ci ../../../SourceHanSerif_CN_sequences.txt ; tx -cff +S cidfont.ps.OTC.SC CFF.OTC.SC ; sfntedit -a CFF=CFF.OTC.SC SourceHanSerifSC-$dir.otf
 
 # Traditional Chinese (TW)
 
-makeotf -f cidfont.ps.OTC.TC -omitMacNames -ff features.OTC.TC -fi cidfontinfo.OTC.TC -mf ../../FontMenuNameDB -r -nS -cs 2 -ch ../../UniSourceHanSerifTW-UTF32-H -ci ../../SourceHanSerif_TW_sequences.txt ; tx -cff +S cidfont.ps.OTC.TC CFF.OTC.TC ; sfntedit -a CFF=CFF.OTC.TC SourceHanSerifTC-$dir.otf
+makeotf -f cidfont.ps.OTC.TC -omitMacNames -ff features.OTC.TC -fi cidfontinfo.OTC.TC -mf ../../../FontMenuNameDB -r -nS -cs 2 -ch ../../../UniSourceHanSerifTW-UTF32-H -ci ../../../SourceHanSerif_TW_sequences.txt ; tx -cff +S cidfont.ps.OTC.TC CFF.OTC.TC ; sfntedit -a CFF=CFF.OTC.TC SourceHanSerifTC-$dir.otf
 
 # Traditional Chinese (HK)
 
-makeotf -f cidfont.ps.OTC.HC -omitMacNames -ff features.OTC.HC -fi cidfontinfo.OTC.HC -mf ../../FontMenuNameDB -r -nS -cs 2 -ch ../../UniSourceHanSerifHK-UTF32-H -ci ../../SourceHanSerif_HK_sequences.txt ; tx -cff +S cidfont.ps.OTC.HC CFF.OTC.HC ; sfntedit -a CFF=CFF.OTC.HC SourceHanSerifHC-$dir.otf
+makeotf -f cidfont.ps.OTC.HC -omitMacNames -ff features.OTC.HC -fi cidfontinfo.OTC.HC -mf ../../../FontMenuNameDB -r -nS -cs 2 -ch ../../../UniSourceHanSerifHK-UTF32-H -ci ../../../SourceHanSerif_HK_sequences.txt ; tx -cff +S cidfont.ps.OTC.HC CFF.OTC.HC ; sfntedit -a CFF=CFF.OTC.HC SourceHanSerifHC-$dir.otf
 
 # Japanese
 
-makeotf -f cidfont.ps.OTC.J -omitMacNames -ff features.OTC.J -fi cidfontinfo.OTC.J -mf ../../FontMenuNameDB -r -nS -cs 1 -ch ../../UniSourceHanSerifJP-UTF32-H -ci ../../SourceHanSerif_JP_sequences.txt ; tx -cff +S cidfont.ps.OTC.J CFF.OTC.J ; sfntedit -a CFF=CFF.OTC.J SourceHanSerif-$dir.otf
+makeotf -f cidfont.ps.OTC.J -omitMacNames -ff features.OTC.J -fi cidfontinfo.OTC.J -mf ../../../FontMenuNameDB -r -nS -cs 1 -ch ../../../UniSourceHanSerifJP-UTF32-H -ci ../../../SourceHanSerif_JP_sequences.txt ; tx -cff +S cidfont.ps.OTC.J CFF.OTC.J ; sfntedit -a CFF=CFF.OTC.J SourceHanSerif-$dir.otf
 
 # Korean
 
-makeotf -f cidfont.ps.OTC.K -omitMacNames -ff features.OTC.K -fi cidfontinfo.OTC.K -mf ../../FontMenuNameDB -r -nS -cs 3 -ch ../../UniSourceHanSerifKR-UTF32-H -ci ../../SourceHanSerif_KR_sequences.txt ; tx -cff +S cidfont.ps.OTC.K CFF.OTC.K ; sfntedit -a CFF=CFF.OTC.K SourceHanSerifK-$dir.otf
+makeotf -f cidfont.ps.OTC.K -omitMacNames -ff features.OTC.K -fi cidfontinfo.OTC.K -mf ../../../FontMenuNameDB -r -nS -cs 3 -ch ../../../UniSourceHanSerifKR-UTF32-H -ci ../../../SourceHanSerif_KR_sequences.txt ; tx -cff +S cidfont.ps.OTC.K CFF.OTC.K ; sfntedit -a CFF=CFF.OTC.K SourceHanSerifK-$dir.otf
 
 ### Command line for building the OTCs (replace $dir with the face name)
 ### Executed in {ExtraLight,Light,Regular,Medium,SemiBold,Bold,Heavy}/OTC
